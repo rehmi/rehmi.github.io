@@ -15,7 +15,14 @@ mintoclevel = 2
 # these files might be copied and, if markdown, processed by Franklin which
 # you might not want. Indicate directories by ending the name with a `/`.
 # Base files such as LICENSE.md and README.md are ignored by default.
-ignore = ["node_modules/", "misc/"]
+ignore = [
+	"node_modules/",
+	"misc/",
+	"inactive/",
+	"menu1.md",
+	"inactive/menu1.md",
+	"demos/"
+]
 
 # RSS (the website_{title, descr, url} must be defined to get RSS)
 generate_rss = true
@@ -26,7 +33,6 @@ website_url   = "https://tlienart.github.io/FranklinTemplates.jl/"
 mintoclevel = 2
 maxtoclevel = 3
 mathjax = false
-ignore = ["foo/content.md"]
 weave = false
 generate_sitemap = true
 
@@ -35,6 +41,15 @@ isAppleARM = Sys.isapple() && Sys.ARCH === :aarch64
 # supports question 001
 members_from_csv = eachrow(readdlm("_assets/members.csv", ',', skipstart=1))
 +++
+
+@def ignore = [
+	"node_modules/",
+	"misc/",
+	"inactive/",
+	"menu1.md",
+	"inactive/menu1.md",
+	"demos/"
+	]
 
 <!--
 Add here global latex commands to use throughout your pages.

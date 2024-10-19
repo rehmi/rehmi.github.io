@@ -9,8 +9,13 @@ has_math = true
 
 # OpenFINCH at OpenSauce 2024
 
+How to build an optics research lab for pennies on the dollar using open source hardware and sofrware.
+
+[More details coming soon]
+
 ![A picture of a color test chart being projected holographically](IMG_7610.jpeg)
 
 
+## Github repos
 * [OpenFinch.jl](https://github.com/rehmi/OpenFinch.jl)
 * [SLM-VERA](https://github.com/rehmi/SLM-VERA)

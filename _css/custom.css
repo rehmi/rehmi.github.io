@@ -1,0 +1,142 @@
+/* Enhanced Project Grid */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+    width: 100%;
+}
+
+.project-card {
+    display: block;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    height: 100%;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    text-decoration: none;
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.project-card-content {
+    padding: 1rem;
+}
+
+.project-card h3 {
+    margin: 0 0 0.5rem 0;
+    color: #333;
+    font-size: 1.4rem;
+}
+
+.project-card p {
+    margin: 0;
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+/* Video containers */
+.youtube-container, .vimeo-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 2rem 0;
+}
+
+.youtube-container iframe, .vimeo-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Notes */
+.note {
+    background: #f8f9fa;
+    border-left: 4px solid #6c757d;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+/* Two-column layout */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -0.5rem;
+    width: 100%;
+}
+
+.column {
+    flex: 1;
+    padding: 0.5rem;
+    min-width: 300px;
+}
+
+/* Code output styling */
+.code-output {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 4px;
+}
+
+/* Figures */
+figure {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Table of contents styling */
+.table-of-contents {
+    background: #f8f9fa;
+    padding: 1rem;
+    margin: 2rem 0;
+    border-radius: 4px;
+}
+
+.table-of-contents h2 {
+    margin-top: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .project-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1rem;
+    }
+    
+    .project-card img {
+        height: 150px;
+    }
+    
+    .project-card h3 {
+        font-size: 1.2rem;
+    }
+    
+    .project-card p {
+        font-size: 0.9rem;
+    }
+}

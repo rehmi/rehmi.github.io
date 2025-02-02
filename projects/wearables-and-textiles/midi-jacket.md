@@ -1,13 +1,51 @@
-@def title = "MIDI Jacket"
-@def tags = ["projects", "wearables-and-textiles", "midi"]
-@def project_date = "1997"
++++
+title = "MIDI Jacket"
+tags = ["wearables", "music", "interaction", "e-textiles"]
+project_date = "2011"
+hasmath = true
++++
 
-# MIDI Jacket
+# MIDI Jacket: Wearable Musical Interface
 
-Project Date: 1997
+\toc
 
-Computing will only be truly "wearable" when it finally disappears into the fabric of everyday life.
+## Overview
 
-It is perhaps safe to say that the majority of society will always wear clothing.  Textiles are one of the earliest technologies, serving many functions: affording protection from the environment, defining the wearer's identity, and providing places to carry objects.  
+The MIDI Jacket is a wearable musical interface that transforms body movements into MIDI signals, allowing wearers to create music through natural gestures and movements.
 
-But the electronic gear that makes this information revolution possible still takes an awkward form. It's not truly wearable except in the sense that it will fit in your pocket or strap onto your body. The goal of this work is to integrate technology directly into clothing by replacing circuit boards with fabric circuitry and packaging components for assembly into fabric circuits.
+## Technical Details
+
+### Hardware Components
+* Custom textile pressure sensors
+* Conductive fabric interconnects
+* Microcontroller integration
+* Wireless MIDI interface
+
+### Sensor System
+The jacket uses an array of custom-designed textile pressure sensors strategically placed at key movement points:
+* Shoulder articulation
+* Elbow bend sensors
+* Wrist rotation
+* Torso movement
+
+## Documentation
+Here's an example of the jacket in use:
+
+~~~
+<div class="youtube-container">
+<iframe src="https://www.youtube.com/embed/j4kR2b4" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+~~~
+
+## Publications
+
+* Post, E.R., et al. "The MIDI Jacket: A Gestural Musical Interface" (NIME 2011)
+
+## Related Work
+
+* [Sp4rkl3](/projects/wearables-and-textiles/sparkle/) - Related textile sensing work
+* [E-broidery](/projects/wearables-and-textiles/e-broidery/) - Foundational textile circuit techniques
+
+{{tableofcontents}}

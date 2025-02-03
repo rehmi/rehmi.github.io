@@ -1,7 +1,6 @@
 +++
 title = "MIDI Jacket"
 tags = ["wearables", "music", "interaction"]
-project_date = "YYYY-MM-DD"
 +++
 
 # MIDI Jacket: Wearable Musical Interface

@@ -1,6 +1,6 @@
 @def title = "Hello Radio"
 @def tags = ["projects", "other", "radio"]
-@def project_date = "Fall 2009"
+@def project_date = "2009"
 
 # Hello Radio
 

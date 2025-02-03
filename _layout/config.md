@@ -5,6 +5,13 @@ Add here global page variables to use throughout your website.
 author = "Rehmi Post"
 mintoclevel = 2
 
+# Default date for projects without a specified date
+project_date = "2000-01-01"
+
+# Default date format for projects
+project_date_format = "yyyy-mm-dd"
+
+
 # Add here files or directories that should be ignored by Franklin, otherwise
 # these files might be copied and, if markdown, processed by Franklin which
 # you might not want. Indicate directories by ending the name with a `/`.
@@ -16,11 +23,21 @@ generate_rss = true
 website_title = "Rehmi Post"
 website_descr = "Research portfolio"
 website_url   = "https://rehmi.github.io/"
+
+# Tag settings
+tag_page_path = "tag"
+tag_page_layout = "_layout/tag.html"
+
+# Ensure consistent handling of dates
+date_format = "yyyy-mm-dd"
+date_format_short = "yyyy-mm-dd"
+
 +++
 
 <!--
 Add here global latex commands to use throughout your pages.
 -->
+\input{tag_commands.md}
 
 <!-- Basic formatting commands -->
 \newcommand{\note}[1]{@@note #1 @@}

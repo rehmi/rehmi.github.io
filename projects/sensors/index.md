@@ -1,11 +1,16 @@
 +++
-title = "Sensor Projects"
+title = "Sensors"
+tags = ["sensors", "archive"]
 +++
 
 # Sensor Projects
 
-Novel sensing systems and applications.
+\toc
 
-## Featured Projects
+## Overview
 
-* [TauFish](/projects/sensors/taufish/) - Innovative orientation sensing technology
+Projects focused on novel sensing technologies and interfaces.
+
+## Projects
+
+* [TauFish](/projects/sensors/taufish/) - Multitouch Table at MoMA (1999)

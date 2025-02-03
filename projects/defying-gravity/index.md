@@ -1,11 +1,16 @@
 +++
-title = "Defying Gravity Projects"
+title = "Defying Gravity"
+tags = ["defying-gravity", "archive"]
 +++
 
 # Defying Gravity Projects
 
-Research and projects exploring novel interfaces using controlled levitation.
+\toc
 
-## Featured Projects
+## Overview
 
-* [ZeroN](/projects/defying-gravity/zeron/) - A levitated tangible user interface
+Projects exploring levitation and gravity-defying interactions.
+
+## Projects
+
+* [ZeroN](/projects/defying-gravity/zeron/) - Levitated interaction element (2011)

@@ -62,7 +62,7 @@ function hfun_taglist()
 end
 
 function hfun_showtags()
-    tags = get(locvar(), :tags, String[])
+    tags = locvar(:tags, default=String[])
     isempty(tags) && return ""
 
     io = IOBuffer()

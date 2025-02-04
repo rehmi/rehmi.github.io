@@ -2,11 +2,9 @@
 Add here global page variables to use throughout your website.
 -->
 +++
-author = "Rehmi Post"
+author = "E. Rehmi Post"
 mintoclevel = 2
-
-# Default date for projects without a specified date
-project_date = "2000-01-01"
+title = "Rehmi Post's Portfolio" # Default title for pages that don't specify one
 
 # Add here files or directories that should be ignored by Franklin, otherwise
 # these files might be copied and, if markdown, processed by Franklin which
@@ -16,75 +14,18 @@ ignore = ["node_modules/"]
 
 # RSS (the website_{title, descr, url} must be defined to get RSS)
 generate_rss = true
-website_title = "Rehmi Post"
-website_descr = "Research portfolio"
+website_title = "Rehmi Post's Portfolio"
+website_descr = "Academic portfolio of E. Rehmi Post"
 website_url   = "https://rehmi.github.io/"
-
-# CSS files
-css = ["franklin.css", "custom.css", "minimal-mistakes.css", "archive.css"]
-
-# Tag settings
-tag_page_path = "tag"
-tag_page_layout = "_layout/tag.html"
-
-# Ensure consistent handling of dates
-date_format = "yyyy-mm-dd"
-date_format_short = "yyyy-mm-dd"
-
 +++
 
 <!--
 Add here global latex commands to use throughout your pages.
 -->
-\input{tag_commands.md}
+\newcommand{\style}[1]{~~~<style>#1</style>~~~}
 
-<!-- Basic formatting commands -->
-\newcommand{\note}[1]{@@note #1 @@}
+\newcommand{\hero}[1]{~~~<div class="hero-section">#1</div>~~~}
 
-<!-- Figure and media commands -->
-\newcommand{\fig}[1]{
-~~~
-<figure>
-  <img src="/assets/#1" alt="#1">
-</figure>
-~~~
-}
+\newcommand{\grid}[1]{~~~<div class="project-grid">#1</div>~~~}
 
-\newcommand{\youtube}[1]{
-~~~
-<div class="youtube-container">
-<iframe src="https://www.youtube.com/embed/#1" 
-frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
-gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-~~~
-}
-
-\newcommand{\vimeo}[1]{
-~~~
-<div class="vimeo-container">
-<iframe src="https://player.vimeo.com/video/#1" 
-frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-</div>
-~~~
-}
-
-<!-- Code and output commands -->
-\newcommand{\prettyshow}[1]{@@code-output \show{#1} @@}
-
-<!-- Layout and container commands -->
-\newcommand{\style}[2]{~~~<div style="#1">~~~ #2 ~~~</div>~~~}
-
-<!-- Two-column layout -->
-\newcommand{\columns}[2]{
-~~~
-<div class="row">
-  <div class="column">
-~~~ #1 ~~~
-  </div>
-  <div class="column">
-~~~ #2 ~~~
-  </div>
-</div>
-~~~
-}
+\newcommand{\feature}[1]{~~~<div class="feature-section">#1</div>~~~}

@@ -1,0 +1,131 @@
+/* Base styles */
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.4;
+    color: #333;
+}
+
+/* Typography */
+h1 {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0 0 5px 0;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: normal;
+    color: #666;
+    margin: 0 0 20px 0;
+}
+
+/* Navigation */
+.nav {
+    margin: 20px 0 40px 0;
+}
+
+.nav a {
+    color: #666;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+/* Section headers */
+.section-title {
+    color: #666;
+    font-weight: normal;
+    font-size: 18px;
+    margin: 40px 0 20px 0;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+/* Project grid layout */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.project-item {
+    margin-bottom: 20px;
+}
+
+.project-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.project-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.project-title {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0 5px 0;
+}
+
+.project-date {
+    color: #666;
+    font-size: 14px;
+    font-style: italic;
+}
+
+/* Individual project page styles */
+.project-header {
+    margin-bottom: 40px;
+}
+
+.project-content {
+    max-width: 800px;
+}
+
+.project-images {
+    margin: 20px 0;
+}
+
+.project-images img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+.project-description {
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.project-meta {
+    color: #666;
+    font-style: italic;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    color: #666;
+    font-size: 14px;
+}
+
+footer a {
+    color: #666;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

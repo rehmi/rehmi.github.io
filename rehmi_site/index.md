@@ -1,0 +1,157 @@
++++
+title = "E. Rehmi Post - Physicist, PhD"
++++
+
+## Defying Gravity {.section-title}
+
+~~~
+<div class="project-grid">
+  <div class="project-item">
+    <a href="projects/defying-gravity/zeron/">
+      <img src="images/zeron-thumb.jpg" alt="ZeroN levitated interaction element">
+      <div class="project-title">ZeroN levitated interaction element</div>
+      <div class="project-date">2011</div>
+    </a>
+  </div>
+</div>
+~~~
+
+## Wearables and Textiles {.section-title}
+
+~~~
+<div class="project-grid">
+  <div class="project-item">
+    <a href="projects/e-textiles/wearable-computing/">
+      <img src="images/wearable-computing-thumb.jpg" alt="Wearable Computing">
+      <div class="project-title">Wearable Computing</div>
+      <div class="project-date">1995 - 2000</div>
+    </a>
+  </div>
+  <div class="project-item">
+    <a href="projects/e-textiles/midi-jacket/">
+      <img src="images/midi-jacket-thumb.jpg" alt="MIDI Jacket">
+      <div class="project-title">MIDI Jacket</div>
+      <div class="project-date">1997</div>
+    </a>
+  </div>
+  <div class="project-item">
+    <a href="projects/e-textiles/j4k3t-20/">
+      <img src="images/j4k3t-20-thumb.jpg" alt="j4k3t 2.0">
+      <div class="project-title">j4k3t 2.0</div>
+      <div class="project-date">Feb 2006</div>
+    </a>
+  </div>
+  <div class="project-item">
+    <a href="projects/e-textiles/sp4rkl3/">
+      <img src="images/sp4rkl3-thumb.jpg" alt="Sp4rkl3">
+      <div class="project-title">Sp4rkl3</div>
+      <div class="project-date">Jan 2008</div>
+    </a>
+  </div>
+  <div class="project-item">
+    <a href="projects/e-textiles/interactive-tablecloth/">
+      <img src="images/interactive-tablecloth-thumb.jpg" alt="Interactive Tablecloth">
+      <div class="project-title">Interactive Tablecloth</div>
+      <div class="project-date">2009, Aug–</div>
+    </a>
+  </div>
+  <div class="project-item">
+    <a href="projects/e-textiles/utartan/">
+      <img src="images/utartan-thumb.jpg" alt="µTartan">
+      <div class="project-title">µTartan</div>
+      <div class="project-date">2009, Aug–</div>
+    </a>
+  </div>
+  <div class="project-item">
+    <a href="projects/e-textiles/stretchable-cable/">
+      <img src="images/stretchable-cable-thumb.jpg" alt="Stretchable Cable">
+      <div class="project-title">Stretchable Cable</div>
+      <div class="project-date">2005, Sep</div>
+    </a>
+  </div>
+</div>
+~~~
+
+## Sensors {.section-title}
+
+~~~
+<div class="project-grid">
+  <div class="project-item">
+    <a href="projects/sensors/taufish/">
+      <img src="images/taufish-thumb.jpg" alt="Multitouch Table at MoMA">
+      <div class="project-title">Multitouch Table at MoMA</div>
+      <div class="project-date">1999</div>
+    </a>
+  </div>
+</div>
+~~~
+
+## Inertial Sensing {.section-title}
+
+~~~
+<div class="project-grid">
+  <div class="project-item">
+    <a href="projects/inertial-sensing/particle-trap-imu/">
+      <img src="images/particle-trap-imu-thumb.jpg" alt="Particle Trap IMU">
+      <div class="project-title">Particle Trap IMU</div>
+      <div class="project-date">2003</div>
+    </a>
+  </div>
+  <div class="project-item">
+    <a href="projects/inertial-sensing/haltere-imu/">
+      <img src="images/haltere-imu-thumb.gif" alt="Haltere IMU">
+      <div class="project-title">Haltere IMU</div>
+      <div class="project-date">2009-2010</div>
+    </a>
+  </div>
+  <div class="project-item">
+    <a href="projects/inertial-sensing/mems-accelerometer/">
+      <img src="images/mems-accelerometer-thumb.jpg" alt="MEMS Interferometric Accelerometer">
+      <div class="project-title">MEMS Interferometric Accelerometer</div>
+      <div class="project-date">Fall 1999</div>
+    </a>
+  </div>
+</div>
+~~~
+
+## Other {.section-title}
+
+~~~
+<div class="project-grid">
+  <div class="project-item">
+    <a href="projects/other/functional-digital-materials/">
+      <img src="images/functional-digital-materials-thumb.jpg" alt="Functional Digital Materials">
+      <div class="project-title">Functional Digital Materials</div>
+      <div class="project-date">2009, Jun–</div>
+    </a>
+  </div>
+  <div class="project-item">
+    <a href="projects/other/sandcastles/">
+      <img src="images/sandcastles-thumb.jpg" alt="Sandcastles">
+      <div class="project-title">Sandcastles</div>
+      <div class="project-date">2010-2012</div>
+    </a>
+  </div>
+  <div class="project-item">
+    <a href="projects/other/pengachu/">
+      <img src="images/pengachu-thumb.jpg" alt="Pengachu">
+      <div class="project-title">Pengachu</div>
+      <div class="project-date">2000-2001</div>
+    </a>
+  </div>
+  <div class="project-item">
+    <a href="projects/other/hello-radio/">
+      <img src="images/hello-radio-thumb.jpg" alt="Hello Radio">
+      <div class="project-title">Hello Radio</div>
+      <div class="project-date">Fall 2009</div>
+    </a>
+  </div>
+  <div class="project-item">
+    <a href="projects/other/intrabody-power/">
+      <img src="images/intrabody-power-thumb.jpg" alt="Intrabody Power">
+      <div class="project-title">Intrabody Power</div>
+      <div class="project-date">1996</div>
+    </a>
+  </div>
+</div>
+~~~

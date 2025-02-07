@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <title>{{isdef title}}{{fill title}}{{else}}E. Rehmi Post{{end}}</title>
+    <style>
+        .top-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 40px;
+            font-size: 16px;
+            color: #666;
+        }
+        .top-header h1, .top-header h2 {
+            font-size: 16px;
+            font-weight: normal;
+            margin: 0;
+            color: #666;
+        }
+        .top-header a {
+            color: #666;
+            text-decoration: none;
+        }
+        .top-header a:hover {
+            text-decoration: underline;
+        }
+        .top-nav {
+            color: #666;
+        }
+        @media (max-width: 768px) {
+            .top-header {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="top-header">
+        <div>
+            <h1>E. Rehmi Post</h1>
+            <div>Physicist, PhD</div>
+        </div>
+        <div>
+            <h2>Selected Projects</h2>
+            <div>(1995—2014)</div>
+        </div>
+        <div class="top-nav">
+            <a href="publications/">Publications</a>,
+            <a href="contact/">Contact details</a>,
+            <a href="about/">About</a>
+        </div>
+    </div>

@@ -1,7 +1,11 @@
+using Franklin
+
+# Export the projectgrid environment
+export projectgrid
+
 # Define the projectgrid environment
 function lx_projectgrid(com, _)
-    # Get the content between \begin{projectgrid} and \end{projectgrid}
-    content = Franklin.content(com.braces[1])
+    content = com.inner
     return """
     <div class="project-grid">
         $content

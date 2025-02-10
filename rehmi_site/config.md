@@ -1,6 +1,3 @@
-<!--
-Add here global page variables to use throughout your website.
--->
 +++
 author = "E. Rehmi Post"
 mintoclevel = 2
@@ -21,3 +18,10 @@ website_url   = "https://rehmi.info/"
 <!--
 Add here global latex commands to use throughout your pages.
 -->
+\newcommand{\projectgrid}[1]{
+~~~
+<div class="project-grid">
+#1
+</div>
+~~~
+}

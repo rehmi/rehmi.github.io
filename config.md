@@ -63,3 +63,28 @@ Add here global latex commands to use throughout your pages.
 </div>
 ~~~
 }
+
+<!-- Project grid environment and command -->
+\newenvironment{projectgrid}{
+~~~
+<div class="project-grid">
+~~~
+}{
+~~~
+</div>
+~~~
+}
+
+\newcommand{\project}[4]{
+~~~
+<a href="#1" class="project-card">
+  <div class="image-container">
+    <img src="#2" alt="#3">
+  </div>
+  <div class="card-content">
+    <h3>#3</h3>
+    <div class="project-date">#4</div>
+  </div>
+</a>
+~~~
+}

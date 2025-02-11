@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  Rehmi Post  ]]>
+    </title>
+    <link> https://rehmi.github.io/ </link>
+    <description>
+      <![CDATA[  Research portfolio  ]]>
+    </description>
+    <atom:link
+      href="https://rehmi.github.io/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Intrabody Power  ]]>
+  </title>
+  <link> https://rehmi.github.io/projects/intrabody-power/index.html </link>
+  <guid> https://rehmi.github.io/projects/intrabody-power/index.html </guid>
+  <description>
+    <![CDATA[  Research on transbody transmission of power and information  ]]>
+  </description>  
+    
+  <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Rehmi Post</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

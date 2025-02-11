@@ -1,31 +1,47 @@
 @def title = "About"
 @def tags = ["about"]
 
-# About Rehmi Post
+# About Rehmi
 
-\toc
+[CV](/assets/pdf/ERP-CV-20141125.pdf) |
+[Google Scholar](http://scholar.google.com/citations?user=b_pBos8AAAAJ&hl=en) |
+[Research Gate](http://www.researchgate.net/profile/Ernest_Post)
 
-[CV](/assets/pdf/ERP-CV-20141125.pdf), 
-[Google Scholar profile](http://scholar.google.com/citations?user=b_pBos8AAAAJ&hl=en), 
-[Research Gate profile](http://www.researchgate.net/profile/Ernest_Post)
+My work spans academia, industry, and entrepreneurship, with a focus on pushing the boundaries of physical computing and embedded systems. I combine expertise in physics, computer science, and engineering to develop innovative solutions in areas ranging from wearable technology to sensor systems.
 
-Rehmi Post is Lead Scientist at
-[Samsung's Think Tank Team](http://thinktankteam.info), leading the ideation and development of future technologies and products.
-Before joining Samsung in 2012, he was a Visiting Scientist at the MIT Center for Bits and Atoms in the Physics and Media group directed by Neil Gershenfeld, where he also earned his PhD for the development of an integrated 6-degree-of-freedom inertial measurement unit (IMU) based on trapped micro particles.  At his PhD defense, Prof. Gershenfeld gave the following introduction:
+## Recent professional experience
 
-"Rehmi was one of the best examples of the students I like most who are least manageable.
-In his time here he did more things than I can count, any one of which could be a thesis.
-In each of those, he never backed away from doing the hard things.
-I think what's most impressive is that he took perhaps the hardest, most ambitious thing that was least ready, and instead of taking the easy way out and packaging up one of the other things he'd done, he leapt into this as the endgame, and I think it came out beautifully."
+- **Raven** (2024-present)
+  Building an all-day wearable computing system in the form of smart glasses.
 
-His academic career started as a Kelly Scholar at the University of Maryland, where he helped implement a large multicomputer architecture under the direction of Charles Rieger and Mark Weiser.
+- **OpenFINCH** (2022-2024)
+  Developed an inexpensive open-source platform for diffractive light manipulation, focusing on computational optics
 
-In a subsequent tour of the computer software industry he developed compilers and interpreters for distributed computing environments and contributed to the first commercial TCP/IP protocol suite for MS-DOS.
+- **Samsung Think Tank Team** (2012-2022)
+  Lead Scientist directing ideation and development of new technologies for consumer electronics
 
-His love of physics led him to return to school at the University of Massachusetts where he studied condensed-matter systems and worked at the Tuominen Nanostructures Lab developing superconducting "single-electron" or Coulomb blockade devices while obtaining the B.Sc. in Physics with honors.
+- **MIT Center for Bits and Atoms** (prior to 2012)
+  Visiting Scientist in the Physics and Media group directed by Neil Gershenfeld
 
-As an Interval Fellow at the Media Lab, he earned an M.Sc. for the development of e-broidery, a means of fabricating electronic circuitry on wash-and-wear textile substrates. Examples of his pioneering work in this field have appeared widely in museum collections, including a permanent loan to the Wellcome Wing of London's Museum of Science.
+## Education
 
-As a Motorola Fellow at the Media Lab and the Center for Bits and Atoms, he earned a Ph.D. for the development of a novel inertial sensor based on the dynamics of levitated particles. While working on his dissertation, he also co-founded ThingMagic, a leader in the field of RFID.
+- Ph.D., MIT Media Lab - Developed a novel 6-degree-of-freedom inertial measurement unit (IMU) based on trapped micro particles
+- M.Sc., MIT Media Lab - Pioneered e-broidery: electronic circuitry on wash-and-wear textile substrates
+- B.Sc., Physics (Honors), University of Massachusetts - Focused on condensed-matter systems and superconducting devices at Tuominen Nanostructures Lab
+- Kelly Scholar, University of Maryland - Worked on multicomputer architecture implementation
 
-Rehmi's research focuses on wearables and textiles, dynamics of micro- and mesoscale systems, and microelectromechanical systems (MEMS). In spare time he and Matt Reynolds developed the Pengachu pocket Linux server to help bring affordable open-source/open-hardware computing and wired/wireless networking infrastructure to users and communities around the world, and which eventually led to the development of the OLPC.
+## Research Interests
+
+- Wearable Technology and Smart Textiles
+- Dynamics of Micro- and Mesoscale Systems
+- Microelectromechanical Systems (MEMS)
+- Open-source Hardware and Computing
+
+## Notable Achievements
+
+- Co-founded ThingMagic, an early leader in RFID technology
+- Developed e-broidery techniques with work featured in museum collections, including London's Museum of Science
+- Co-developed Pengachu pocket Linux server, which influenced the development of OLPC
+- Early career contributions to commercial TCP/IP protocol suite for MS-DOS
+- Recognized as Interval Research Fellow and Motorola Fellow at MIT
+

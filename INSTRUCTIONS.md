@@ -137,3 +137,7 @@ To resume work:
 3. Examine _material directories for additional content
 4. Follow project standards for consistency
 5. Test all links and media files after changes
+
+Do not use the repo map tool as it returns incorrect results. Instead you may use the `tree -I _material` command.
+
+ALWAYS check to see if a file exists before overwriting or modifying it. If you do choose to modify a file. be sure to write out the entire contents of the modified file.

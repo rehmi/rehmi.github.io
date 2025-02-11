@@ -1,1 +1,0 @@
-\newcommand{\prettyshow}[1]{@@code-output \show{#1} @@}

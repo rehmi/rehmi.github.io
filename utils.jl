@@ -1,5 +1,58 @@
 using Franklin
 
+function hfun_project_card(params::Vector{String})
+    # Expected order: url, thumb, title, date[, description]
+    url = params[1]
+    thumb = params[2]
+    title = params[3]
+    date = params[4]
+    desc = length(params) > 4 ? params[5] : ""
+    
+    return """
+        <a href="$url" class="project-card">
+            <div class="image-container">
+                <img src="$thumb" alt="$title">
+            </div>
+            <div class="card-content">
+                <h3>$title</h3>
+                <div class="project-date">$date</div>
+                $(isempty(desc) ? "" : "<div class=\"project-description\">$desc</div>")
+            </div>
+        </a>
+    """
+end
+
+function hfun_project_grid(params::Vector{String})
+    # Parse params into groups of 4-5 items
+    cards = String[]
+    i = 1
+    while i <= length(params)
+        remaining = length(params) - i + 1
+        if remaining >= 4
+            # Get required params
+            card_params = params[i:i+3]
+            # Add description if available
+            if remaining >= 5 && !startswith(params[i+4], "/")  # Check if next param isn't a URL
+                push!(card_params, params[i+4])
+                i += 5
+            else
+                i += 4
+            end
+            push!(cards, hfun_project_card(card_params))
+        else
+            @warn "Incomplete project card parameters starting at position $i"
+            break
+        end
+    end
+    
+    return """
+        <div class="project-grid">
+            $(join(cards, "\n"))
+        </div>
+    """
+end
+
+# Previous utility functions...
 function hfun_tableofcontents()
     out = """
         <div class="table-of-contents">
@@ -8,28 +61,6 @@ function hfun_tableofcontents()
         </div>
         """
     return out
-end
-
-function hfun_recent_projects()
-    projects = [
-        ("TauFish", "/projects/sensors/taufish/", "Novel approaches to orientation sensing"),
-        ("MIDI Jacket", "/projects/wearables-and-textiles/midi-jacket/", "Wearable musical interface"),
-        ("Particle Trap IMU", "/projects/inertial-sensing/particle-trap-imu/", "Innovative inertial measurement"),
-        ("ZeroN", "/projects/defying-gravity/zeron/", "Levitated interaction elements")
-    ]
-
-    io = IOBuffer()
-    write(io, "<div class=\"project-grid\">")
-    for (name, url, desc) in projects
-        write(io, """
-            <div class="project-card">
-                <h3><a href="$url">$name</a></h3>
-                <p>$desc</p>
-            </div>
-            """)
-    end
-    write(io, "</div>")
-    return String(take!(io))
 end
 
 function hfun_taglist()

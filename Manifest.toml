@@ -60,9 +60,9 @@ version = "1.18.2+1"
 
 [[deps.CodecZlib]]
 deps = ["TranscodingStreams", "Zlib_jll"]
-git-tree-sha1 = "962834c22b66e32aa10f7611c08c8ca4e20749a9"
+git-tree-sha1 = "bce6804e5e6044c6daab27bb533d1295e4a2e759"
 uuid = "944b1d66-785c-5afd-91f1-9de20f533193"
-version = "0.7.8"
+version = "0.7.6"
 
 [[deps.ColorSchemes]]
 deps = ["ColorTypes", "ColorVectorSpace", "Colors", "FixedPointNumbers", "PrecompileTools", "Random"]
@@ -109,9 +109,9 @@ version = "1.1.1+0"
 
 [[deps.ConcurrentUtilities]]
 deps = ["Serialization", "Sockets"]
-git-tree-sha1 = "d9d26935a0bcffc87d2613ce14c527c99fc543fd"
+git-tree-sha1 = "f36e5e8fdffcb5646ea5da81495a5a7566005127"
 uuid = "f0e56b4a-5159-44fe-b623-3e5288b988bb"
-version = "2.5.0"
+version = "2.4.3"
 
 [[deps.Conda]]
 deps = ["Downloads", "JSON", "VersionParsing"]
@@ -152,9 +152,9 @@ version = "4.1.1"
 
 [[deps.DSP]]
 deps = ["Bessels", "FFTW", "IterTools", "LinearAlgebra", "Polynomials", "Random", "Reexport", "SpecialFunctions", "Statistics"]
-git-tree-sha1 = "60b9e054b777bb8bf0fae29b1c9d17f6876b2b44"
+git-tree-sha1 = "489db9d78b53e44fb753d225c58832632d74ab10"
 uuid = "717857b8-e6f2-59f4-9121-6e50c889abd2"
-version = "0.8.2"
+version = "0.8.0"
 
     [deps.DSP.extensions]
     OffsetArraysExt = "OffsetArrays"
@@ -515,9 +515,9 @@ version = "1.4.0"
 
 [[deps.Latexify]]
 deps = ["Format", "InteractiveUtils", "LaTeXStrings", "MacroTools", "Markdown", "OrderedCollections", "Requires"]
-git-tree-sha1 = "cd714447457c660382fe634710fb56eb255ee42e"
+git-tree-sha1 = "ce5f5621cac23a86011836badfedf664a612cee4"
 uuid = "23fbe1c1-3f47-55db-b15f-69d7ec21a316"
-version = "0.16.6"
+version = "0.16.5"
 
     [deps.Latexify.extensions]
     DataFramesExt = "DataFrames"
@@ -878,9 +878,9 @@ version = "1.40.7"
 
 [[deps.Polynomials]]
 deps = ["LinearAlgebra", "OrderedCollections", "RecipesBase", "Requires", "Setfield", "SparseArrays"]
-git-tree-sha1 = "5f6847271627572213a6b419456ffccef4c6729b"
+git-tree-sha1 = "56ff43adee1b1449fa151265b0088fe1c14dfd7d"
 uuid = "f27b6e38-b328-58d1-80ce-0feddd5e7a45"
-version = "4.0.16"
+version = "4.0.14"
 
     [deps.Polynomials.extensions]
     PolynomialsChainRulesCoreExt = "ChainRulesCore"
@@ -1102,9 +1102,9 @@ version = "0.3.7"
 
 [[deps.StringManipulation]]
 deps = ["PrecompileTools"]
-git-tree-sha1 = "725421ae8e530ec29bcbdddbe91ff8053421d023"
+git-tree-sha1 = "a6b1675a536c5ad1a60e5a5153e1fee12eb146e3"
 uuid = "892a3eda-7b42-436c-8928-eab12a02cf0e"
-version = "0.4.1"
+version = "0.4.0"
 
 [[deps.StructTypes]]
 deps = ["Dates", "UUIDs"]
@@ -1252,9 +1252,9 @@ version = "0.1.4"
 
 [[deps.XML2_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Libiconv_jll", "Zlib_jll"]
-git-tree-sha1 = "ee6f41aac16f6c9a8cab34e2f7a200418b1cc1e3"
+git-tree-sha1 = "a2fccc6559132927d4c5dc183e3e01048c6dcbd6"
 uuid = "02c8fc9c-b97f-50b9-bbe4-9be30ff0a78a"
-version = "2.13.6+0"
+version = "2.13.5+0"
 
 [[deps.XSLT_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Libgcrypt_jll", "Libgpg_error_jll", "Libiconv_jll", "XML2_jll", "Zlib_jll"]

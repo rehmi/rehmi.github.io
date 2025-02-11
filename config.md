@@ -2,60 +2,89 @@
 Add here global page variables to use throughout your website.
 -->
 +++
-using DelimitedFiles
-
 author = "Rehmi Post"
 mintoclevel = 2
-
-# uncomment and adjust the following line if the expected base URL of your website is something like [www.thebase.com/yourproject/]
-# please do read the docs on deployment to avoid common issues: https://franklinjl.org/workflow/deploy/#deploying_your_website
-# prepath = "yourproject"
 
 # Add here files or directories that should be ignored by Franklin, otherwise
 # these files might be copied and, if markdown, processed by Franklin which
 # you might not want. Indicate directories by ending the name with a `/`.
 # Base files such as LICENSE.md and README.md are ignored by default.
-ignore = [
-	"node_modules/",
-	"misc/",
-	"inactive/",
-	"menu1.md",
-	"inactive/menu1.md",
-	"demos/"
-]
+ignore = ["node_modules/", "OLD/"]
 
 # RSS (the website_{title, descr, url} must be defined to get RSS)
 generate_rss = true
-website_title = "Franklin Template"
-website_descr = "Example website using Franklin"
-website_url   = "https://tlienart.github.io/FranklinTemplates.jl/"
-
-mintoclevel = 2
-maxtoclevel = 3
-mathjax = false
-weave = false
-generate_sitemap = true
-
-isAppleARM = Sys.isapple() && Sys.ARCH === :aarch64
-
-# supports question 001
-members_from_csv = eachrow(readdlm("_assets/members.csv", ',', skipstart=1))
+website_title = "Rehmi Post"
+website_descr = "Research portfolio"
+website_url   = "https://rehmi.github.io/"
 +++
-
-@def ignore = [
-	"node_modules/",
-	"misc/",
-	"inactive/",
-	"menu1.md",
-	"inactive/menu1.md",
-	"demos/"
-	]
 
 <!--
 Add here global latex commands to use throughout your pages.
 -->
-\newcommand{\R}{\mathbb R}
-\newcommand{\scal}[1]{\langle #1 \rangle}
 
-<!-- supports question 003 -->
+<!-- Basic formatting commands -->
+\newcommand{\note}[1]{@@note #1 @@}
+
+<!-- Figure and media commands -->
+\newcommand{\fig}[1]{~~~<figure><img src="/assets/#1" alt="#1"></figure>~~~}
+
+\newcommand{\youtube}[1]{
+~~~
+<div class="youtube-container">
+<iframe src="https://www.youtube.com/embed/#1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+~~~
+}
+
+\newcommand{\vimeo}[1]{
+~~~
+<div class="vimeo-container">
+<iframe src="https://player.vimeo.com/video/#1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</div>
+~~~
+}
+
+<!-- Code and output commands -->
 \newcommand{\prettyshow}[1]{@@code-output \show{#1} @@}
+
+<!-- Layout and container commands -->
+\newcommand{\style}[2]{~~~<div style="#1">~~~ #2 ~~~</div>~~~}
+
+<!-- Two-column layout -->
+\newcommand{\columns}[2]{
+~~~
+<div class="row">
+  <div class="column">
+~~~ #1 ~~~
+  </div>
+  <div class="column">
+~~~ #2 ~~~
+  </div>
+</div>
+~~~
+}
+
+<!-- Project grid environment and command -->
+\newenvironment{projectgrid}{
+~~~
+<div class="project-grid">
+~~~
+}{
+~~~
+</div>
+~~~
+}
+
+\newcommand{\project}[4]{
+~~~
+<a href="#1" class="project-card">
+  <div class="image-container">
+    <img src="#2" alt="#3">
+  </div>
+  <div class="card-content">
+    <h3>#3</h3>
+    <div class="project-date">#4</div>
+  </div>
+</a>
+~~~
+}

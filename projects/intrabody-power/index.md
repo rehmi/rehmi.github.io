@@ -1,7 +1,7 @@
 +++
 title = "Intrabody Power"
-date = "1996"
-tags = ["intrabody", "power transmission", "patents"]
+project_date = "1996"
+tags = ["intrabody", "power", "wearables"]
 rss = "Research on transbody transmission of power and information"
 +++
 

@@ -2,37 +2,6 @@
 title = "Rehmi Post"
 hascode = false
 hasmath = false
-style = "@import url(\"/styles/project-cards.css\");
-
-.hero-section {
-    background-color: #5e616c;
-    background-image: url('/assets/minimal-mistakes/mm-home-page-feature.jpg');
-    background-size: cover;
-    background-position: center;
-    color: white;
-    padding: 4rem 2rem;
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-.hero-section h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-}
-
-.hero-section p {
-    font-size: 1.2rem;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.feature-section {
-    text-align: center;
-    padding: 2rem;
-    background: #f8f9fa;
-    margin: 2rem 0;
-    border-radius: 8px;
-}"
 +++
 
 # Research portfolio
@@ -55,10 +24,6 @@ style = "@import url(\"/styles/project-cards.css\");
 
 ~~~
 <div class="feature-section">
-  <a href="/projects/"><h2>More Projects</h2></a></p>
+  <a href="/projects/"><h2>More Projects →</h2></a>
 </div>
-
-<footer>
-© Copyright E. Rehmi Post 2024 | <a href="/feed/">RSS</a>
-</footer>
 ~~~

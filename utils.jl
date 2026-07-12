@@ -63,51 +63,47 @@ function hfun_tableofcontents()
     return out
 end
 
-function hfun_taglist()
-    tag = locvar(:fd_tag)
-
-    pages = []
-    for file in readdir(joinpath(Franklin.path(:site), "projects"); join=true)
-        if endswith(file, ".md")
-            pagevar = Franklin.pagevar(file)
-            tags = get(pagevar, :tags, String[])
-            if tag ∈ tags
-                push!(pages, (file, pagevar))
-            end
-        end
-    end
-
-    sort!(pages, by=p->get(p[2], :title, basename(p[1])))
-    io = IOBuffer()
-    write(io, "<ul class=\"tag-posts\">")
-
-    for (path, vars) in pages
-        title = get(vars, :title, basename(path))
-        url = Franklin.postpath(path)
-        write(io, """
-            <li><a href="$url">$title</a></li>
-        """)
-    end
-    write(io, "</ul>")
-    return String(take!(io))
-end
-
-function hfun_showtags()
-    tags = locvar(:tags, default=String[])
-    isempty(tags) && return ""
-
-    io = IOBuffer()
-    write(io, "<div class=\"post-tags\">Tags: ")
-    for (i, tag) in enumerate(tags)
-        i > 1 && write(io, ", ")
-        url = "/tag/$tag/"
-        write(io, "<a href=\"$url\">$tag</a>")
-    end
-    write(io, "</div>")
-    return String(take!(io))
-end
+# Tag pages use Franklin's built-in {{taglist}} hfun, which tracks tagged pages
+# site-wide (including projects/<slug>/index.md subdirectories) — do not
+# override it here.
 
 function get_page_var(path, key, default="")
     vars = Franklin.pagevar(path)
     return get(vars, Symbol(key), default)
+end
+
+# True for an individual project page (projects/<slug>/index.md), false for
+# the projects index, the upcoming list, and every non-project page.
+function _is_project_page()
+    rpath = something(locvar(:fd_rpath), "")
+    startswith(rpath, "projects/") &&
+        rpath ∉ ("projects/index.md", "projects/upcoming.md")
+end
+
+# Breadcrumb shown at the top of individual project pages only. Invoked from
+# _layout/head.html as {{breadcrumb}}.
+function hfun_breadcrumb()
+    _is_project_page() || return ""
+    title = something(locvar(:title), "")
+    return """
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="/projects/">Projects</a> / <span>$title</span>
+        </nav>
+    """
+end
+
+# Tag chips appended to the bottom of individual project pages only. Invoked
+# from _layout/foot.html as {{project_tags}}.
+function hfun_project_tags()
+    _is_project_page() || return ""
+    tags = locvar(:tags, default=String[])
+    isempty(tags) && return ""
+    io = IOBuffer()
+    write(io, "<div class=\"post-tags\">Tags: ")
+    for (i, tag) in enumerate(tags)
+        i > 1 && write(io, " ")
+        write(io, "<a href=\"/tag/$tag/\">$tag</a>")
+    end
+    write(io, "</div>")
+    return String(take!(io))
 end

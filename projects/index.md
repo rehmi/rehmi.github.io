@@ -2,7 +2,6 @@
 title = "Projects"
 hascode = false
 hasmath = false
-style = "@import url(\"/styles/project-cards.css\");"
 +++
 
 # Past projects
@@ -30,9 +29,7 @@ style = "@import url(\"/styles/project-cards.css\");"
 }}
 
 ~~~
-<div style="text-align: right; margin-bottom: 2rem;">
-  <a href="/projects/upcoming/" style="display: inline-block; padding: 0.5rem 1rem; background: #f0f0f0; border-radius: 4px; text-decoration: none; color: #666;">
-    More projects Under Construction →
-  </a>
+<div class="feature-section">
+  <a href="/projects/upcoming/"><h2>More projects under construction →</h2></a>
 </div>
 ~~~

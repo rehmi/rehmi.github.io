@@ -52,9 +52,10 @@ jobs:
         branch: gh-pages
         folder: __site
         clean: true
-        # Keep the custom domain and the unlinked preview subfolder (see
-        # Preview.yml) from being wiped by this root deploy's clean step.
-        cname: www.rehmi.io
+        # Keep the CNAME (custom domain www.rehmi.io) and the unlinked preview
+        # subfolder (see Preview.yml) from being wiped by this deploy's clean.
+        # NOTE: this action has no `cname` input — CNAME is preserved purely by
+        # excluding it from the clean below.
         clean-exclude: |
           CNAME
           ${{ secrets.PREVIEW_PATH }}

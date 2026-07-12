@@ -29,9 +29,20 @@ julia +1.11 --project=. -e 'import Pkg; Pkg.instantiate()'
 ```
 
 Deployment is automatic: pushing to `main` triggers `.github/workflows/Deploy.yml`, which runs
-`optimize()` and publishes `__site/` to the `gh-pages` branch. Do not edit `__site/` by hand — it is
-generated output (gitignored). `.gitlab-ci.yml` is a legacy GitLab Pages equivalent; GitHub Actions
-is the live path.
+`optimize()` and publishes `__site/` to the `gh-pages` branch root. The live site is served at the
+**custom domain `www.rehmi.io`** (CNAME committed on `gh-pages`; `rehmi.github.io` 301-redirects
+there). Do not edit `__site/` by hand — it is generated output (gitignored). `.gitlab-ci.yml` is a
+legacy GitLab Pages equivalent; GitHub Actions is the live path.
+
+**Preview / staging.** Pushing to the **`preview`** branch triggers `.github/workflows/Preview.yml`,
+which builds with `optimize(prepath=<PREVIEW_PATH>)` and deploys into a subfolder of `gh-pages`,
+served (unlinked) at `www.rehmi.io/<PREVIEW_PATH>/`. `PREVIEW_PATH` is a repo **secret** (kept out of
+source). Workflow to preview before going live: work on `preview` → push → check the preview URL →
+merge `preview` → `main` to publish. Two safety rails make this non-destructive: the preview deploy
+uses `clean:false` + `target-folder` (never touches the live root), and the live deploy's
+`clean-exclude` protects both `CNAME` and the `<PREVIEW_PATH>` folder. The deploy action
+(JamesIves v4) has **no `cname` input** — the custom domain is preserved solely by excluding `CNAME`
+from the clean. (Repo is public, so the preview path is unlisted, not truly secret.)
 
 ## Franklin conventions that matter here
 

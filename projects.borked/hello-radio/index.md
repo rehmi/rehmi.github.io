@@ -1,6 +1,6 @@
 +++
 title = "Hello Radio"
-project_date = "2010"
+project_date = "2009"
 tags = ["hardware", "radio", "communication", "archive"]
 +++
 
@@ -8,7 +8,7 @@ tags = ["hardware", "radio", "communication", "archive"]
 
 {{showtags}}
 
-The Hello Radio (Fall 2010) is a \$10 wireless transceiver with impressive specifications:
+The Hello Radio (Fall 2009) is a \$10 wireless transceiver with impressive specifications:
 * 256kbps maximum speed
 * 1km maximum range
 * Low-cost implementation
@@ -34,33 +34,33 @@ The Hello Radio (Fall 2010) is a \$10 wireless transceiver with impressive speci
 
 The Hello Radio 016 version was assembled and documented by Shelby Doyle. Below are all the necessary files and instructions for building this version.
 
-![](./hello_radio_016_SED.jpg)
+\fig{assets/images/hello-radio/hello_radio_016_SED.jpg}
 
 ### Board Artwork
 For PCB fabrication, two main files are provided:
-- ![Top layer image](./hello_radio_016-top.png)
-- ![Cutout image](./hello_radio_016-cutout.png)
+- [Top layer image](assets/hello-radio/files/hello_radio_016-top.png)
+- [Cutout image](assets/hello-radio/files/hello_radio_016-cutout.png)
 
 ### Build Files
 The following files are required for construction:
-- [Schematic (PDF)](./hello_radio_016-sch.pdf)
-- [Board Layout (PDF)](./hello_radio_016-brd.pdf)
-- [Assembly Diagram](./hello_radio_016-assembly.pdf)
-- [Bill of Materials](./hello_radio_016-bom.txt)
+- [Schematic (PDF)](assets/hello-radio/files/hello_radio_016-sch.pdf)
+- [Board Layout (PDF)](assets/hello-radio/files/hello_radio_016-brd.pdf)
+- [Assembly Diagram](assets/hello-radio/files/hello_radio_016-assembly.pdf)
+- [Bill of Materials](assets/hello-radio/files/hello_radio_016-bom.txt)
 
 ### Software and Firmware
 Source files and bootloader:
-- [Makefile](./makefile)
-- [Hello Radio Hex](./hello_radio.hex)
-- [Hello Radio Source](./hello_radio.c)
-- [HAL Header](./hal_hello_radio-016.h)
-- [ATmega Bootloader](./ATmegaBOOT_168_pro_8MHz.hex)
+- [Makefile](assets/hello-radio/files/makefile)
+- [Hello Radio Hex](assets/hello-radio/files/hello_radio.hex)
+- [Hello Radio Source](assets/hello-radio/files/hello_radio.c)
+- [HAL Header](assets/hello-radio/files/hal_hello_radio-016.h)
+- [ATmega Bootloader](assets/hello-radio/files/ATmegaBOOT_168_pro_8MHz.hex)
 
 ### Design Files
 Eagle CAD files:
-- [hello_radio_016.sch](./hello_radio_016.sch)
-- [hello_radio_016.brd](./hello_radio_016.brd)
-- [hello_radio_016.lbr](./hello_radio_016.lbr)
+- [Schematic](assets/hello-radio/files/hello_radio_016.sch)
+- [Board](assets/hello-radio/files/hello_radio_016.brd)
+- [Library](assets/hello-radio/files/hello_radio_016.lbr)
 
 ### Fabrication Instructions
 
@@ -72,7 +72,7 @@ For milling the top traces:
 png_path hello_radio_016-top.png hello-radio_016-top.path 1 0.38 4 0.5 0.5
 ```
 
-![](hello_radio_016-top.png)
+\fig{assets/images/hello-radio/hello_radio_016-top.png}
 
 For via holes and board cutout:
 - Use a 1/32" end mill
@@ -82,7 +82,7 @@ For via holes and board cutout:
 png_path hello_radio_016-top.png hello-radio_016-top.path 1 0.79 4 0.5 0.5
 ```
 
-![](hello_radio_016-cutout.png)
+\fig{assets/images/hello-radio/hello_radio_016-cutout.png}
 
 ## Performance Specifications
 

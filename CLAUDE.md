@@ -13,15 +13,19 @@ to HTML.
 
 Run from the repo root. First run instantiates the Julia environment.
 
+**Use Julia 1.11**, not the default. `Manifest.toml` is resolved for 1.11.3; Julia 1.12 dropped
+`MbedTLS_jll` from the stdlib and fails to precompile Franklin. Locally, prefix commands with
+`julia +1.11` (juliaup); CI is pinned to 1.11 in `Deploy.yml`.
+
 ```bash
 # Live preview with hot reload at http://localhost:8000/
-julia --project=. -e 'using Franklin; serve()'
+julia +1.11 --project=. -e 'using Franklin; serve()'
 
-# One-off local build (writes to __site/)
-julia --project=. -e 'using Franklin; optimize()'
+# One-off local build (writes to __site/). Add prerender=false,minify=false for a fast HTML-only pass.
+julia +1.11 --project=. -e 'using Franklin; optimize()'
 
 # Install/refresh Julia deps (Franklin, NodeJS)
-julia --project=. -e 'import Pkg; Pkg.instantiate()'
+julia +1.11 --project=. -e 'import Pkg; Pkg.instantiate()'
 ```
 
 Deployment is automatic: pushing to `main` triggers `.github/workflows/Deploy.yml`, which runs
@@ -37,11 +41,22 @@ is the live path.
   definitions — LaTeX-style Franklin macros usable in any page: `\youtube{id}`, `\vimeo{id}`,
   `\fig{...}`, `\columns{}{}`, and the `\project` card / `projectgrid` environment. Add reusable
   embed/layout helpers here.
-- **`utils.jl`** (root) defines `hfun_*` Julia functions invoked from Markdown as `{{fname args}}`:
-  `hfun_project_grid` / `hfun_project_card` (the homepage/project grids), `hfun_taglist`,
-  `hfun_showtags`. This is where dynamic HTML generation lives. Note the project grid is driven by
-  positional args (url, thumb, title, date, [description]) — see `projects/index.md` for the format.
-- `config.md` sets `ignore = ["node_modules/", "OLD/"]`, so those are never rendered.
+- **`utils.jl`** (root) defines `hfun_*` Julia functions invoked from Markdown/layout as
+  `{{fname args}}`: `hfun_project_grid` / `hfun_project_card` (homepage/project grids, positional
+  args url, thumb, title, date, [description] — see `projects/index.md`), `hfun_breadcrumb` and
+  `hfun_project_tags` (auto-added to individual project pages via `_layout/head.html` and
+  `_layout/page_foot.html`; both no-op off project pages via `_is_project_page()`). Tag pages use
+  Franklin's **built-in** `{{taglist}}` (don't re-add a custom one — the old override only scanned
+  flat `projects/*.md` and missed the `projects/<slug>/index.md` subdirs).
+- **Styling is one file, `_css/site.css`** (loaded after `franklin.css` in `_layout/head.html`),
+  built on CSS custom properties in `:root` with a `prefers-color-scheme: dark` block — edit the
+  variables to retheme. It defines the single `.project-grid`/`.project-card` system. The old
+  `minimal-mistakes.css` + `adjust/custom/archive/projects/project-images/project-cards` stylesheets
+  were removed; don't reintroduce per-page `style = "@import ..."` front-matter.
+- **`page_foot.html` is auto-appended** by Franklin to each page's content (do not manually
+  `{{insert}}` it — that double-renders the footer).
+- `config.md` `ignore` excludes `node_modules/ .venv/ OLD/ projects.borked/ rehmi_site/` and the dev
+  docs (`INVENTORY.md CLAUDE.md INSTRUCTIONS.md README.md`), so none of those render into the build.
 
 ## Content structure
 

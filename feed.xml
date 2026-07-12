@@ -58,23 +58,4 @@
   </atom:author>
         
 </item>
-
-<item>
-  <title>
-    <![CDATA[  Project Title  ]]>
-  </title>
-  <link> https://rehmi.github.io/projects.borked/_template/index.html </link>
-  <guid> https://rehmi.github.io/projects.borked/_template/index.html </guid>
-  <description>
-    <![CDATA[  Brief project description for RSS feeds  ]]>
-  </description>  
-    
-  <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>  
-  
-  
-  <atom:author>
-    <atom:name>Rehmi Post</atom:name>
-  </atom:author>
-        
-</item>
 </channel></rss>

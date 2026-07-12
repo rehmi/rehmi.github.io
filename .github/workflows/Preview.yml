@@ -1,0 +1,54 @@
+name: Build and Deploy Preview
+# Deploys an UNLINKED preview of the `preview` branch to a subfolder of the
+# gh-pages branch, served at https://www.rehmi.io/${{ secrets.PREVIEW_PATH }}/.
+# The path is held in the PREVIEW_PATH repo secret (kept out of source). The
+# build sets Franklin's `prepath` so all absolute links resolve under that
+# subfolder, and the deploy uses clean:false + target-folder so it can never
+# modify the live site at the gh-pages root.
+on:
+  push:
+    branches:
+      - preview
+  workflow_dispatch:
+jobs:
+  build-and-deploy-preview:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        persist-credentials: false
+
+    - name: Install python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - run: pip install matplotlib
+
+    - name: Install Julia
+      uses: julia-actions/setup-julia@v1
+      with:
+        version: '1.11' # Pinned to match Manifest.toml (1.12 dropped MbedTLS_jll from stdlib).
+
+    # Same build as Deploy.yml, but with Franklin's prepath set to the secret
+    # preview path so every absolute /… link becomes /<path>/… .
+    - name: Build (with prepath)
+      env:
+        PREVIEW_PATH: ${{ secrets.PREVIEW_PATH }}
+      run: julia -e '
+            using Pkg; Pkg.activate("."); Pkg.instantiate();
+            using NodeJS; run(`$(npm_cmd()) install highlight.js`);
+            using Franklin;
+            optimize(prepath=ENV["PREVIEW_PATH"])'
+
+    - name: Deploy preview to subfolder
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        branch: gh-pages
+        folder: __site
+        target-folder: ${{ secrets.PREVIEW_PATH }}
+        clean: false # never delete anything at the gh-pages root (live site)

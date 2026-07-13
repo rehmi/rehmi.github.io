@@ -1,0 +1,38 @@
+Partlist
+
+Exported from hello_radio_016.sch at 12/9/10 7:36 PM
+
+EAGLE Version 5.10.0 Copyright (c) 1988-2010 CadSoft
+
+Part     Value          Device                  Package          Library         Sheet
+
+C1       100pF          CAPACITOR_FAB_1206      FAB_1206         hello_radio_016 1
+C2       10nF           CAPACITOR_FAB_1206      FAB_1206         hello_radio_016 1
+C3       10uF           CAPACITOR_FAB_1206      FAB_1206         hello_radio_016 1
+C4       1nF            CAPACITOR_FAB_1206      FAB_1206         hello_radio_016 1
+C5       2.7pF          CAPACITOR_FAB_0603      FAB_0603         hello_radio_016 1
+C6       68pF           CAPACITOR_FAB_0603      FAB_0603         hello_radio_016 1
+C7       5.1pF          CAPACITOR_FAB_0603      FAB_0603         hello_radio_016 1
+C8       0.1uF          CAPACITOR_FAB_1206      FAB_1206         hello_radio_016 1
+C9       0.1uF          CAPACITOR_FAB_1206      FAB_1206         hello_radio_016 1
+C10      0.1uF          CAPACITOR_FAB_1206      FAB_1206         hello_radio_016 1
+C11      0.1uF          CAPACITOR_FAB_1206      FAB_1206         hello_radio_016 1
+C12      0.1uF          CAPACITOR_FAB_1206      FAB_1206         hello_radio_016 1
+D1                      LED1206                 1206             hello_radio_016 1
+D2                      LED1206                 1206             hello_radio_016 1
+J$1      SMA_EDGE       SMA_EDGE                SMA-EDGE         hello_radio_016 1
+J1       AVRISP_SMD     AVRISP_SMD              2X03SMD          hello_radio_016 1
+JP1                     FTDI_SERIAL_HEADER_SMD  1X06_SMD         hello_radio_016 1
+JR1      0              RESISTOR_FAB_1206       FAB_1206         hello_radio_016 1
+L1       390nH          INDUCTOR_FAB_0603       FAB_0603         hello_radio_016 1
+L2       33nH           INDUCTOR_FAB_0603       FAB_0603         hello_radio_016 1
+L3       47nH           INDUCTOR_FAB_0603       FAB_0603         hello_radio_016 1
+R1       10k            RESISTOR_FAB_1206       FAB_1206         hello_radio_016 1
+R2       100            RESISTOR_FAB_1206       FAB_1206         hello_radio_016 1
+R3       100            RESISTOR_FAB_1206       FAB_1206         hello_radio_016 1
+S1                      6MM_SWITCH              6MM_SWITCH       hello_radio_016 1
+U1       ATMEGA168      ATMEGA168_FAB_TQFP32-08 FAB_TQFP32-08    hello_radio_016 1
+U2       MRF49XA        MRF49XA_FAB_TSSOP16     FAB_TSSOP16      hello_radio_016 1
+U3                      REGULATOR_SOT23         SOT23            hello_radio_016 1
+X1       RESONATOR_FAB  RESONATOR_FAB           FABCLASSRES      hello_radio_016 1
+X2       10.000MHz      CRYSTAL_ABM7            CRYSTAL-SMD-ABM7 hello_radio_016 1

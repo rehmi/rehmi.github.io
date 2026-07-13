@@ -7,6 +7,8 @@ hasmath = false
 # Past projects
 
 {{project_grid
+    "/projects/camera-behind-display/" "/assets/thumbnails/other/camera-behind-display/thumb.svg" "Camera Behind the Display" "2020–2022" "Real-time image-deblurring algorithms that restore clean pictures from a camera hidden behind an active display, by deconvolving the display's point-spread function."
+
     "/projects/zeron/" "/assets/thumbnails/defying-gravity/zeron/thumb.jpg" "ZeroN levitated interaction element" "2011" "A new tangible interaction element that can be levitated and moved freely by computer in 3D space."
 
     "/projects/sandcastles/" "/assets/thumbnails/other/sandcastles/thumb.jpg" "Sandcastles" "2010-2012" "Microscopic castles etched onto individual grains of sand using a focused ion beam microscope."

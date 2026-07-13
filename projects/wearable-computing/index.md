@@ -11,7 +11,7 @@ project_thumb = "/assets/thumbnails/wearables-and-textiles/wearable-computing/th
 
 ## Origins
 
-In 1994, I had a serendipitous encounter with Thad Starner and his wearable computer (named "Lizzy") in a coffee shop. This meeting would prove to be pivotal in my career trajectory. A few months later, after showing Thad the wearable computer I had independently built, he invited me to join him and the other members of the "Borg" as a graduate student at the MIT Media Lab.
+In 1994, I had a serendipitous encounter with Thad Starner and his wearable computer (named "Lizzy") in a coffee shop. This meeting would prove to be pivotal in my career trajectory. A few months later, after showing Thad the wearable computer I had independently built, he invited me to join him and the other members of the "Borg" as a graduate student at the MIT Media Lab. That machine grew into [HackMan 0.4](/projects/hackman/) — a 25 MHz 486 Linux box carried in a fanny pack.
 
 ## Historical Context
 

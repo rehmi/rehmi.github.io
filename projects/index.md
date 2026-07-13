@@ -38,6 +38,8 @@ hasmath = false
     "/projects/midi-jacket/" "/assets/thumbnails/wearables-and-textiles/midi-jacket/thumb.jpg" "MIDI Jacket" "1997" "Pioneering wearable computing project integrating technology directly into clothing."
 
     "/projects/wearable-computing/" "/assets/thumbnails/wearables-and-textiles/wearable-computing/thumb.jpg" "Wearable Computing" "1995 - 2000" "Early research and development in always-on, personal computing devices at the MIT Media Lab."
+
+    "/projects/hackman/" "/assets/thumbnails/wearables-and-textiles/hackman/thumb.svg" "HackMan 0.4" "1995–1996" "A self-built wearable computer — a 25 MHz 486 Linux box in a fanny pack, driving a heads-up display and typed one-handed."
 }}
 
 ~~~

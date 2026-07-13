@@ -66,8 +66,12 @@ from the clean. (Repo is public, so the preview path is unlisted, not truly secr
   were removed; don't reintroduce per-page `style = "@import ..."` front-matter.
 - **`page_foot.html` is auto-appended** by Franklin to each page's content (do not manually
   `{{insert}}` it — that double-renders the footer).
-- `config.md` `ignore` excludes `node_modules/ .venv/ OLD/ projects.borked/ rehmi_site/` and the dev
-  docs (`INVENTORY.md CLAUDE.md INSTRUCTIONS.md README.md`), so none of those render into the build.
+- `config.md` `ignore` excludes `node_modules/ .venv/ OLD/ projects.borked/ rehmi_site/`, the private
+  `notes/` dir, and the dev docs (`CLAUDE.md INSTRUCTIONS.md README.md`), so none render into the build.
+- **`notes/` is a separate PRIVATE git repo** (`rehmi/rehmi.github.io-notes`), gitignored + Franklin-ignored
+  by this public repo. It holds the process/research docs — `INVENTORY.md` (status tracker),
+  `PROJECTS-PLAN.md` (build playbook + queue), `RECENT-WORK.md` (research dossier). Work in `notes/` and
+  commit/push it independently; it must never be committed into the public repo.
 
 ## Content structure
 

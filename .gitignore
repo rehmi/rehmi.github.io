@@ -4,3 +4,5 @@ node_modules/
 package-lock.json
 OLD/
 .envrc
+# Private process/research docs — their own private repo (rehmi/rehmi.github.io-notes)
+notes/

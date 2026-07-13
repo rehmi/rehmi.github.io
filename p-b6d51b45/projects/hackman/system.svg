@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" width="1200" height="460" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <rect x="1" y="1" width="1198" height="458" rx="14" fill="#f6f7f9" stroke="#e4e6ea"/>
+  <text x="600" y="44" text-anchor="middle" font-size="26" font-weight="700" fill="#1a1a1a">HackMan 0.4</text>
+  <text x="600" y="70" text-anchor="middle" font-size="15" fill="#626871">a Linux box you can carry in a fanny pack (1995–96)</text>
+
+  <!-- Cables (drawn first, behind icons) -->
+  <g stroke="#626871" stroke-width="2" fill="none">
+    <line x1="300" y1="158" x2="520" y2="214"/>
+    <line x1="906" y1="254" x2="680" y2="254"/>
+    <line x1="600" y1="360" x2="600" y2="312"/>
+  </g>
+
+  <!-- Heads-up display (Private Eye) -->
+  <circle cx="252" cy="158" r="15" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+  <rect x="266" y="149" width="34" height="18" rx="3" fill="#dbe7ff" stroke="#0b5cff" stroke-width="1.5"/>
+  <text x="255" y="124" text-anchor="middle" font-size="12.5" fill="#626871">heads-up display (Private Eye)</text>
+
+  <!-- Computer -->
+  <rect x="520" y="196" width="160" height="116" rx="10" fill="#dbe7ff" stroke="#0b5cff" stroke-width="2"/>
+  <rect x="546" y="214" width="36" height="26" rx="2" fill="#33383f"/>
+  <rect x="592" y="214" width="44" height="26" rx="2" fill="#33383f"/>
+  <text x="600" y="272" text-anchor="middle" font-size="13" font-weight="600" fill="#1a1a1a">486SL · Linux + DOS</text>
+  <text x="600" y="291" text-anchor="middle" font-size="12" fill="#626871">8 MB RAM · 1 GB HDD</text>
+  <text x="600" y="338" text-anchor="middle" font-size="12.5" fill="#626871">single-board wearable PC</text>
+
+  <!-- Twiddler one-handed keyboard -->
+  <rect x="906" y="206" width="62" height="96" rx="18" fill="#e9edf2" stroke="#1a1a1a" stroke-width="1.5"/>
+  <g fill="#626871">
+    <circle cx="925" cy="228" r="4"/><circle cx="949" cy="228" r="4"/>
+    <circle cx="925" cy="250" r="4"/><circle cx="949" cy="250" r="4"/>
+    <circle cx="925" cy="272" r="4"/><circle cx="949" cy="272" r="4"/>
+  </g>
+  <text x="937" y="190" text-anchor="middle" font-size="12.5" fill="#626871">one-handed keyboard (Twiddler)</text>
+
+  <!-- Battery -->
+  <rect x="562" y="360" width="76" height="30" rx="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="638" y="368" width="6" height="14" fill="#1a1a1a"/>
+  <text x="596" y="381" text-anchor="middle" font-size="12" font-weight="600" fill="#1a1a1a">6 V</text>
+  <text x="600" y="412" text-anchor="middle" font-size="12" fill="#626871">sealed lead-acid gel cell</text>
+
+  <!-- Specs strip -->
+  <text x="600" y="444" text-anchor="middle" font-size="12.5" fill="#626871">25 MHz 486SL · 8 MB · 1 GB · 615 g · &lt; $3000 · 12.52 BogoMips</text>
+</svg>

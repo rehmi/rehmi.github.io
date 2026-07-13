@@ -39,23 +39,4 @@
   </atom:author>
         
 </item>
-
-<item>
-  <title>
-    <![CDATA[  Intrabody Power  ]]>
-  </title>
-  <link> https://rehmi.github.io/projects/intrabody-power/index.html </link>
-  <guid> https://rehmi.github.io/projects/intrabody-power/index.html </guid>
-  <description>
-    <![CDATA[  Research on transbody transmission of power and information  ]]>
-  </description>  
-    
-  <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>  
-  
-  
-  <atom:author>
-    <atom:name>Rehmi Post</atom:name>
-  </atom:author>
-        
-</item>
 </channel></rss>

@@ -140,6 +140,12 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>https://rehmi.github.io/projects/hd-imu/index.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>https://rehmi.github.io/publications/index.html</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>

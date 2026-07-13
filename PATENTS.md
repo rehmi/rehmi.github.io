@@ -8,15 +8,15 @@ rss = "A comprehensive list of patents by Ernest Rehmi Post"
 
 ## Computational Optics & Imaging
 - **Under-Display Camera Systems & Image Processing**
+  - [Restoring Images Using Deconvolution](https://patents.google.com/patent/US12393765B2) (2025)
+  - [Automating Search for Improved Display Structure for UDC Systems](https://patents.google.com/patent/US12482075B2) (2025)
+  - [Optical Element for Deconvolution](https://patents.google.com/patent/US12216277B2) (2025)
   - [Airy-Disk Correction for Deblurring an Image](https://patents.google.com/patent/US20240169497A1) (2024) *pending*
-  - [Restoring Images Using Deconvolution](https://patents.google.com/patent/US20240177278A1) (2024) *pending*
   - [Flare Mitigation via Deconvolution using High Dynamic Range Imaging](https://patents.google.com/patent/US11889033B2) (2024)
   - [Multiple Point Spread Function Based Image Reconstruction](https://patents.google.com/patent/US11721001B2) (2023)
   - [Self-regularizing Inverse Filter for Image Deblurring](https://patents.google.com/patent/US11722796B2) (2023)
   - [High Dynamic Range Point Spread Function Generation](https://patents.google.com/patent/US11637965B2) (2023)
   - [Processing Images Captured by a Camera Behind a Display](https://patents.google.com/patent/US11575865B2) (2023)
-  - [Optical Element for Deconvolution](https://patents.google.com/patent/US20230119549A1) (2023) *pending*
-  - [Automating Search for Improved Display Structure for UDC Systems](https://patents.google.com/patent/US20230042592A1) (2023) *pending*
   - [Incoherent Digital Holography Based Depth Camera](https://patents.google.com/patent/US11443448B2) (2022)
   - [High Dynamic Range Point Spread Function Generation](https://patents.google.com/patent/US11343440B1) (2022)
 
@@ -38,6 +38,7 @@ rss = "A comprehensive list of patents by Ernest Rehmi Post"
   - [Interaction Sensing](https://patents.google.com/patent/US10108305B2) (2018)
   - [Interaction Modes for Object-Device Interactions](https://patents.google.com/patent/US10042446B2) (2018)
   - [Interaction Sensing](https://patents.google.com/patent/US10042504B2) (2018)
+  - [Interaction Sensing](https://patents.google.com/patent/US10013132B2) (2018)
   - [Interaction Sensing](https://patents.google.com/patent/US9569055B2) (2017)
 
 ## Position & Motion Sensing
@@ -61,4 +62,4 @@ rss = "A comprehensive list of patents by Ernest Rehmi Post"
 - [Electrically Active Textiles and Articles Made Therefrom](https://patents.google.com/patent/US6210771B1) (2001)
 
 ## Other
-- [Systems and Methods for Temperature Profile Control of Microwave Oven Devices](https://patents.google.com/patent/US20220377856A1) (2022) *pending*
+- [Systems and Methods for Temperature Profile Control of Microwave Oven Devices](https://patents.google.com/patent/US12446122B2) (2025)

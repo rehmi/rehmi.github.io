@@ -207,6 +207,33 @@ code { background: var(--surface); color: var(--text); }
 }
 .feature-section a { text-decoration: none; }
 
+/* ---- Current-work callout --------------------------------------- */
+.current-work {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--link);
+  border-radius: var(--radius);
+  padding: 1.4rem 1.6rem;
+  margin: 0 0 2.5rem;
+}
+.current-work .eyebrow {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--link);
+  margin-bottom: 0.4rem;
+}
+.current-work h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.35rem;
+  border-bottom: none;   /* override franklin-content h2 rule */
+}
+.current-work p { margin: 0 0 0.9rem; color: var(--text); }
+.current-work .cta { font-weight: 600; text-decoration: none; }
+.current-work .cta:hover { text-decoration: underline; }
+
 /* ---- Media embeds ----------------------------------------------- */
 .youtube-container, .vimeo-container {
   position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;

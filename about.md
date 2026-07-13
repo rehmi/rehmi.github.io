@@ -11,8 +11,8 @@ My work spans academia, industry, and entrepreneurship, with a focus on pushing 
 
 ## Recent professional experience
 
-- **Raven** (2024-present)
-  Building an all-day wearable computing system in the form of smart glasses.
+- **[Raven](https://raven.computer)** (2024-present)
+  Building an all-day wearable ambient computing device with a full-color display, on-device Linux, and hands-free eye and voice control.
 
 - **OpenFINCH** (2022-2024)
   Developed an inexpensive open-source platform for diffractive light manipulation, focusing on computational optics

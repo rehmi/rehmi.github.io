@@ -6,6 +6,15 @@ hasmath = false
 
 # Research portfolio
 
+~~~
+<div class="current-work">
+  <span class="eyebrow">Current work</span>
+  <h2>Raven &mdash; a wearable ambient computer</h2>
+  <p>Since 2024, building <strong>Raven</strong>: an all-day wearable ambient computing device with a full-color display and Linux on a 64-bit ARM processor, controlled hands-free by eye and voice.</p>
+  <a class="cta" href="https://raven.computer">raven.computer &rarr;</a>
+</div>
+~~~
+
 ## Selected Projects
 
 {{project_grid

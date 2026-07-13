@@ -17,7 +17,5 @@ Placeholders for project pages to be updated.
     "/projects/functional-digital-materials/" "/assets/thumbnails/other/functional-digital-materials/thumb.jpg" "Functional Digital Materials" "2009, Jun–" "Research into programmable matter and digital materials."
 
     "/projects/interactive-tablecloth/" "/assets/thumbnails/wearables-and-textiles/interactive-tablecloth/thumb.jpg" "Interactive Tablecloth" "2009, Aug–" "A smart textile surface that responds to touch and object placement."
-
-    "/projects/intrabody-power/" "/assets/thumbnails/other/intrabody-power/thumb.jpg" "Intrabody Power" "1996" "Power transmission through the human body."
 }}
 ~~~

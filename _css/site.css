@@ -80,8 +80,10 @@ body {
 code { background: var(--surface); color: var(--text); }
 .franklin-content table th, .franklin-content table td { border-color: var(--border); }
 
-/* Content images: readable default, not franklin's 70%+padding hack */
-.franklin-content img { width: 100%; max-width: 100%; padding: 0; height: auto; }
+/* Content images: fill the column when large, but show smaller (archival)
+   images at natural size, centered — never upscale (avoids blurring old
+   low-res photos). Replaces franklin's 70%+left-padding hack. */
+.franklin-content img { max-width: 100%; height: auto; padding: 0; display: block; margin: 0 auto; }
 .franklin-content figure img { max-width: 100%; }
 
 /* ---- Masthead / nav --------------------------------------------- */

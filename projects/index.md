@@ -21,6 +21,8 @@ hasmath = false
 
     "/projects/particle-trap-imu/" "/assets/thumbnails/inertial-sensing/particle-trap-imu/thumb.jpg" "Particle Trap IMU" "2003" "Novel inertial measurement unit using a suspended metal bead in an electric field."
 
+    "/projects/pengachu/" "/assets/thumbnails/other/pengachu/thumb.jpg" "Pengachu" "2000–2001" "A cheap, open, wireless Linux palmtop for education — an OLPC precursor built at the MIT Media Lab."
+
     "/projects/taufish/" "/assets/thumbnails/sensors/taufish/thumb.jpg" "Multitouch Table at MoMA" "1999" "Interactive multitouch table installation at the Museum of Modern Art."
 
     "/projects/mems-accelerometer/" "/assets/thumbnails/inertial-sensing/mems-accelerometer/thumb.jpg" "MEMS Interferometric Accelerometer" "Fall 1999" "Novel microfabricated accelerometer based on optical interferometry principles."

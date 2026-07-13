@@ -11,6 +11,8 @@ hasmath = false
 
     "/projects/intrabody-power/" "/assets/thumbnails/other/intrabody-power/thumb.svg" "Intrabody Networking" "1997–2023" "Moving data and power through the human body by capacitive coupling — a 23-year throughline from the MIT Media Lab to a modern physical layer at Samsung."
 
+    "/projects/tribotouch/" "/assets/thumbnails/other/tribotouch/thumb.svg" "TriboTouch" "2013–2019" "Passive triboelectric touch sensing that reads the charge displaced on contact — sensing gloves, styluses, and bare fingers alike from a single electrode."
+
     "/projects/zeron/" "/assets/thumbnails/defying-gravity/zeron/thumb.jpg" "ZeroN levitated interaction element" "2011" "A new tangible interaction element that can be levitated and moved freely by computer in 3D space."
 
     "/projects/sandcastles/" "/assets/thumbnails/other/sandcastles/thumb.jpg" "Sandcastles" "2010-2012" "Microscopic castles etched onto individual grains of sand using a focused ion beam microscope."

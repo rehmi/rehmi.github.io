@@ -18,8 +18,6 @@ Placeholders for project pages to be updated.
 
     "/projects/interactive-tablecloth/" "/assets/thumbnails/wearables-and-textiles/interactive-tablecloth/thumb.jpg" "Interactive Tablecloth" "2009, Aug–" "A smart textile surface that responds to touch and object placement."
 
-    "/projects/hello-radio/" "/assets/thumbnails/other/hello-radio/thumb.jpg" "Hello Radio" "Fall 2009" "A $10 wireless transceiver with a 256kbps maximum speed and 1km maximum range."
-
     "/projects/pengachu/" "/assets/thumbnails/other/pengachu/thumb.jpg" "Pengachu" "2000-2001" "Interactive robotic companion project."
 
     "/projects/intrabody-power/" "/assets/thumbnails/other/intrabody-power/thumb.jpg" "Intrabody Power" "1996" "Power transmission through the human body."

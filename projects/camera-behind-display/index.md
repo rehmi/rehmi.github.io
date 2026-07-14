@@ -9,13 +9,22 @@ project_thumb = "/assets/thumbnails/other/camera-behind-display/thumb.png"
 
 ~~~
 <div class="figure-set">
-  <div class="fig-row">
-    <div class="fig-cell"><div class="fig-cap">Display mask</div><img src="udc-mask.png" alt="Generic periodic display aperture acting as a diffractive mask"></div>
+  <div class="fig-row two">
+    <div class="fig-cell"><div class="fig-cap">OLED sub-pixels</div><img src="udc-subpixels.png" alt="Diamond-PenTile OLED layout: red and blue diamonds alternating on a checkerboard with green diamonds between them"></div>
+    <div class="fig-cell"><div class="fig-cap">Aperture · the diffractive mask</div><img src="udc-mask.png" alt="The transmissive gaps left between the opaque sub-pixel electrodes and the row and column traces"></div>
+  </div>
+  <p class="fig-note">A camera behind an OLED shoots through it. Each Diamond-PenTile sub-pixel sits over an opaque electrode; with the row and column traces, they leave a periodic pattern of transmissive gaps — the aperture, which diffracts the incoming light.</p>
+</div>
+~~~
+
+~~~
+<div class="figure-set">
+  <div class="fig-row three">
     <div class="fig-cell"><div class="fig-cap">PSF · 625 nm</div><img src="udc-psf-r.png" alt="Point-spread function at 625 nm, red"></div>
     <div class="fig-cell"><div class="fig-cap">PSF · 530 nm</div><img src="udc-psf-g.png" alt="Point-spread function at 530 nm, green"></div>
     <div class="fig-cell"><div class="fig-cap">PSF · 455 nm</div><img src="udc-psf-b.png" alt="Point-spread function at 455 nm, blue"></div>
   </div>
-  <p class="fig-note">The display's periodic pixels act as a diffractive mask. Each wavelength diffracts differently, so the point-spread function is chromatic — the red orders spread wider than the blue.</p>
+  <p class="fig-note">That aperture diffracts each wavelength differently, so the point-spread function is chromatic — the red orders spread wider than the blue.</p>
 </div>
 ~~~
 
@@ -99,8 +108,8 @@ diffraction orders back toward a compact point — moving the correction from so
 A related thread applied the same light-field and PSF thinking to depth sensing: an incoherent
 digital-holography depth camera that recovers depth from ambient light with no active illuminator.
 
-*All figures on this page are illustrative wave-optics simulations built from a generic display
-pattern — not Samsung hardware, masks, or data.*
+*All figures on this page are illustrative wave-optics simulations built from a generic
+Diamond-PenTile OLED aperture (public sub-pixel geometry) — not Samsung hardware, masks, or data.*
 
 ## Patents
 

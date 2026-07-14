@@ -9,22 +9,12 @@ project_thumb = "/assets/thumbnails/other/camera-behind-display/thumb.png"
 
 ~~~
 <div class="figure-set">
-  <div class="fig-row two">
-    <div class="fig-cell"><div class="fig-cap">OLED sub-pixels</div><img src="udc-subpixels.png" alt="Diamond-PenTile OLED layout: red and blue diamonds alternating on a checkerboard with green diamonds between them"></div>
-    <div class="fig-cell"><div class="fig-cap">Aperture · the diffractive mask</div><img src="udc-mask.png" alt="The transmissive gaps left between the opaque sub-pixel electrodes and the row and column traces"></div>
-  </div>
-  <p class="fig-note">A camera behind an OLED shoots through it. Each Diamond-PenTile sub-pixel sits over an opaque electrode; with the row and column traces, they leave a periodic pattern of transmissive gaps — the aperture, which diffracts the incoming light.</p>
-</div>
-~~~
-
-~~~
-<div class="figure-set">
   <div class="fig-row three">
-    <div class="fig-cell"><div class="fig-cap">PSF · 625 nm</div><img src="udc-psf-r.png" alt="Point-spread function at 625 nm, red"></div>
-    <div class="fig-cell"><div class="fig-cap">PSF · 530 nm</div><img src="udc-psf-g.png" alt="Point-spread function at 530 nm, green"></div>
-    <div class="fig-cell"><div class="fig-cap">PSF · 455 nm</div><img src="udc-psf-b.png" alt="Point-spread function at 455 nm, blue"></div>
+    <div class="fig-cell"><div class="fig-cap">OLED sub-pixels</div><img src="udc-subpixels.png" alt="Diamond-PenTile OLED layout: red and blue diamonds alternating on a checkerboard with green diamonds between them"></div>
+    <div class="fig-cell"><div class="fig-cap">Aperture · the diffractive mask</div><img src="udc-mask.png" alt="The small transmissive gaps left between the opaque sub-pixel electrodes and the row and column traces"></div>
+    <div class="fig-cell"><div class="fig-cap accent">White-light PSF</div><img src="udc-psf.png" alt="The white-light point-spread function: a rainbow starburst where each diffraction order disperses from blue to red"></div>
   </div>
-  <p class="fig-note">That aperture diffracts each wavelength differently, so the point-spread function is chromatic — the red orders spread wider than the blue.</p>
+  <p class="fig-note">A camera behind an OLED shoots through the small gaps between the opaque sub-pixel electrodes and the thin-film metal row/column interconnects. That fine periodic aperture diffracts light; summing the diffraction across the visible spectrum (400–700 nm in 5 nm steps) gives the white-light PSF — a rainbow starburst, each order dispersing from blue at the center to red at the edge.</p>
 </div>
 ~~~
 
@@ -48,7 +38,7 @@ into a purpose-designed optical element.
 
 - **Measure the PSF.** The display's repeating pixel and aperture structure diffracts light into a
   characteristic, wavelength-dependent point-spread function — a bright core surrounded by a grid of
-  diffraction orders and cross-spikes (above, shown per wavelength). Capturing it against known point sources
+  diffraction orders and cross-spikes (above, right). Capturing it against known point sources
   gives a per-channel model of exactly how the display blurs light.
 - **Deconvolve per channel.** Each color channel of the raw capture is deconvolved against its
   measured PSF with an inverse filter to remove the display-induced blur.

@@ -10,12 +10,12 @@ project_thumb = "/assets/thumbnails/other/camera-behind-display/thumb.png"
 ~~~
 <div class="figure-set">
   <div class="fig-row">
-    <div class="fig-cell"><div class="fig-cap">Chromatic PSF</div><img src="udc-psf.png" alt="Wavelength-dependent diffraction point-spread function of the display"></div>
-    <div class="fig-cell"><div class="fig-cap">Scene</div><img src="udc-scene.png" alt="Night scene with points of light and window grids"></div>
-    <div class="fig-cell"><div class="fig-cap">Through display</div><img src="udc-through.png" alt="The scene blurred and ghosted through the display"></div>
-    <div class="fig-cell"><div class="fig-cap accent">Restored</div><img src="udc-restored.png" alt="The image recovered by deconvolution"></div>
+    <div class="fig-cell"><div class="fig-cap">Display mask</div><img src="udc-mask.png" alt="Generic periodic display aperture acting as a diffractive mask"></div>
+    <div class="fig-cell"><div class="fig-cap">PSF · 625 nm</div><img src="udc-psf-r.png" alt="Point-spread function at 625 nm, red"></div>
+    <div class="fig-cell"><div class="fig-cap">PSF · 530 nm</div><img src="udc-psf-g.png" alt="Point-spread function at 530 nm, green"></div>
+    <div class="fig-cell"><div class="fig-cap">PSF · 455 nm</div><img src="udc-psf-b.png" alt="Point-spread function at 455 nm, blue"></div>
   </div>
-  <p class="fig-note">A display's periodic pixels produce a wavelength-dependent diffraction PSF; a scene imaged through it is blurred and ghosted; inverse-filter deconvolution recovers it.</p>
+  <p class="fig-note">The display's periodic pixels act as a diffractive mask. Each wavelength diffracts differently, so the point-spread function is chromatic — the red orders spread wider than the blue.</p>
 </div>
 ~~~
 
@@ -39,7 +39,7 @@ into a purpose-designed optical element.
 
 - **Measure the PSF.** The display's repeating pixel and aperture structure diffracts light into a
   characteristic, wavelength-dependent point-spread function — a bright core surrounded by a grid of
-  diffraction orders and cross-spikes (above, far left). Capturing it against known point sources
+  diffraction orders and cross-spikes (above, shown per wavelength). Capturing it against known point sources
   gives a per-channel model of exactly how the display blurs light.
 - **Deconvolve per channel.** Each color channel of the raw capture is deconvolved against its
   measured PSF with an inverse filter to remove the display-induced blur.
@@ -53,6 +53,17 @@ into a purpose-designed optical element.
 - **Optimize the display itself.** Rather than only correcting after capture, an automated search
   iterates PSF computation against image-quality metrics to improve the physical display-pixel
   structure for under-display cameras.
+
+~~~
+<div class="figure-set">
+  <div class="fig-row three">
+    <div class="fig-cell"><div class="fig-cap">Scene</div><img src="udc-scene.png" alt="A night scene of coloured lights and lit window grids"></div>
+    <div class="fig-cell"><div class="fig-cap">Through display</div><img src="udc-through.png" alt="The same scene blurred and chromatically ghosted through the display"></div>
+    <div class="fig-cell"><div class="fig-cap accent">Restored</div><img src="udc-restored.png" alt="The image recovered by per-channel deconvolution"></div>
+  </div>
+  <p class="fig-note">Imaged through the display, the scene is blurred and chromatically ghosted; per-channel inverse-filter deconvolution recovers the detail and colour.</p>
+</div>
+~~~
 
 ## Correcting the blur in optics
 

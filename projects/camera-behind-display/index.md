@@ -120,5 +120,8 @@ See the [patents page](/PATENTS/) for the complete portfolio.
 
 ## Credits
 
-Developed at the Samsung Research America Think Tank Team, with co-inventors including
-Changgeng Liu, Sajid Sadi, Kishore Rathinavel, and Kushal Kardam Vyas.
+Developed at the Samsung Research America Think Tank Team. Named co-inventors across the
+under-display-camera patent family: Changgeng Liu, Sajid Sadi, Ye Zhao, Luxi Zhao,
+Brian R. Patton, Congzhong Guo, Ziwen Jiang, Gustavo Alejandro Guayaquil Sosa,
+Kishore Rathinavel, Kushal Kardam Vyas, Nigel Clarke, Abdelrahman Abdelhamed,
+Abhijith Punnappurath, and Michael Brown.

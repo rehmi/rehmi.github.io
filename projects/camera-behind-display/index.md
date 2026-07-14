@@ -67,22 +67,37 @@ into a purpose-designed optical element.
 
 ## Correcting the blur in optics
 
+The last step moves the deconvolution out of software altogether: a **diffractive optical element**
+that pre-corrects the display-induced blur through wavelength-dependent phase modulation
+([US12216277](https://patents.google.com/patent/US12216277B2), sole inventor E. R. Post). Because it
+is a diffractive element, its transmittance is complex — a spatially varying *phase* as well as
+amplitude:
+
 ~~~
 <div class="figure-set">
   <div class="fig-row two">
-    <div class="fig-cell"><div class="fig-cap">Display only</div><img src="udc-elem-off.png" alt="System PSF with the display alone, spread into a grid of diffraction orders and spikes"></div>
-    <div class="fig-cell"><div class="fig-cap accent">+ optical element</div><img src="udc-elem-on.png" alt="System PSF with a corrective diffractive element, collapsed to a compact point"></div>
+    <div class="fig-cell"><div class="fig-cap">Corrective element</div><img src="udc-element.png" alt="Representative complex transmittance of the corrective diffractive element, domain-coloured"></div>
+    <div class="fig-cell"><div class="fig-cap">Phase legend</div><img src="udc-wheel.png" alt="Colour wheel: hue encodes phase, brightness encodes magnitude"></div>
   </div>
-  <p class="fig-note">A diffractive optical element designed to pre-correct the display's diffraction collapses the system PSF back toward a compact point — moving the correction from software into optics.</p>
+  <p class="fig-note">The element's complex transmittance, domain-coloured: <strong>hue = phase</strong> (the wheel), <strong>brightness = magnitude</strong>. Its phase profile redirects the display's diffracted orders.</p>
 </div>
 ~~~
 
-The last step moves the deconvolution out of software altogether: a **diffractive optical element**
-that pre-corrects the display-induced blur through wavelength-dependent phase modulation, collapsing
-the system PSF back toward a compact point ([US12216277](https://patents.google.com/patent/US12216277B2),
-sole inventor E. R. Post). A related thread applied the same light-field and PSF thinking to depth
-sensing: an incoherent digital-holography depth camera that recovers depth from ambient light with no
-active illuminator.
+Applied in the imaging path, it collapses the system point-spread function from a spread of
+diffraction orders back toward a compact point — moving the correction from software into optics:
+
+~~~
+<div class="figure-set">
+  <div class="fig-row two">
+    <div class="fig-cell"><div class="fig-cap">PSF · display only</div><img src="udc-elem-off.png" alt="System PSF with the display alone, spread into a grid of diffraction orders and spikes"></div>
+    <div class="fig-cell"><div class="fig-cap accent">PSF · + element</div><img src="udc-elem-on.png" alt="System PSF with the corrective element, collapsed to a compact point"></div>
+  </div>
+  <p class="fig-note">The diffractive corrector collapses the system PSF back toward a compact point.</p>
+</div>
+~~~
+
+A related thread applied the same light-field and PSF thinking to depth sensing: an incoherent
+digital-holography depth camera that recovers depth from ambient light with no active illuminator.
 
 *All figures on this page are illustrative wave-optics simulations built from a generic display
 pattern — not Samsung hardware, masks, or data.*

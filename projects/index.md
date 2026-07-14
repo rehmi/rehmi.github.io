@@ -7,7 +7,7 @@ hasmath = false
 # Past projects
 
 {{project_grid
-    "/projects/camera-behind-display/" "/assets/thumbnails/other/camera-behind-display/thumb.svg" "Camera Behind the Display" "2020–2022" "Real-time image-deblurring algorithms that restore clean pictures from a camera hidden behind an active display, by deconvolving the display's point-spread function."
+    "/projects/camera-behind-display/" "/assets/thumbnails/other/camera-behind-display/thumb.png" "Camera Behind the Display" "2020–2022" "Real-time image-deblurring algorithms that restore clean pictures from a camera hidden behind an active display, by deconvolving the display's point-spread function."
 
     "/projects/intrabody-power/" "/assets/thumbnails/other/intrabody-power/thumb.svg" "Intrabody Networking" "1997–2023" "Moving data and power through the human body by capacitive coupling — a 23-year throughline from the MIT Media Lab to a modern physical layer at Samsung."
 

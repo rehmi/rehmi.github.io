@@ -14,6 +14,7 @@
   --muted:     #626871;
   --link:      #0b5cff;
   --link-hover:#0842b8;
+  --accent:    #b8543a;
   --border:    #e4e6ea;
   --card-bg:   #ffffff;
   --shadow:    0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.06);
@@ -34,6 +35,7 @@
     --muted:     #9aa0a6;
     --link:      #6fb2ff;
     --link-hover:#9ccaff;
+    --accent:    #e6b48c;
     --border:    #2c3138;
     --card-bg:   #1e2227;
     --shadow:    0 1px 3px rgba(0,0,0,.4);
@@ -233,6 +235,25 @@ code { background: var(--surface); color: var(--text); }
 .current-work p { margin: 0 0 0.9rem; color: var(--text); }
 .current-work .cta { font-weight: 600; text-decoration: none; }
 .current-work .cta:hover { text-decoration: underline; }
+
+/* ---- Grounded figure sets (simulated imagery w/ adaptive labels) ---- */
+.figure-set { margin: 2rem 0; }
+.fig-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.9rem; }
+.fig-row.two { grid-template-columns: repeat(2, 1fr); max-width: 560px; margin: 0 auto; }
+@media (max-width: 640px) { .fig-row { grid-template-columns: repeat(2, 1fr); } }
+.fig-cell .fig-cap {
+  font-size: 0.68rem; letter-spacing: 0.09em; text-transform: uppercase;
+  color: var(--muted); margin: 0 0 0.4rem;
+}
+.fig-cell .fig-cap.accent { color: var(--accent); }
+.fig-cell img {
+  width: 100%; height: auto; display: block; border-radius: 6px;
+  border: 1px solid var(--border); background: #0c0c0e;
+}
+.fig-note {
+  font-family: Georgia, "Times New Roman", serif; font-style: italic;
+  color: var(--muted); font-size: 0.9rem; text-align: center; margin: 0.9rem 0 0;
+}
 
 /* ---- Media embeds ----------------------------------------------- */
 .youtube-container, .vimeo-container {

@@ -118,10 +118,18 @@ The work is documented across a family of issued and pending US patents:
 
 See the [patents page](/PATENTS/) for the complete portfolio.
 
-## Credits
+## Contributors
 
-Developed at the Samsung Research America Think Tank Team. Named co-inventors across the
-under-display-camera patent family: Changgeng Liu, Sajid Sadi, Ye Zhao, Luxi Zhao,
-Brian R. Patton, Congzhong Guo, Ziwen Jiang, Gustavo Alejandro Guayaquil Sosa,
-Kishore Rathinavel, Kushal Kardam Vyas, Nigel Clarke, Abdelrahman Abdelhamed,
-Abhijith Punnappurath, and Michael Brown.
+Developed at the Samsung Research America Think Tank Team. The matrix below maps every named
+inventor across the under-display-camera patent family (• = named on that patent):
+
+~~~
+<div class="figure-set">
+  <img src="contributors.svg" alt="Authorship matrix of the under-display-camera patents versus their named inventors" style="width:100%;max-width:740px;height:auto;display:block;margin:0 auto;">
+  <p class="fig-note">Rehmi Post is named on all eleven patents; Changgeng Liu on ten. US12482075 is the large cross-team grant.</p>
+</div>
+~~~
+
+Named co-inventors, in full: Changgeng Liu, Sajid Sadi, Ye Zhao, Luxi Zhao, Brian R. Patton,
+Congzhong Guo, Ziwen Jiang, Gustavo Alejandro Guayaquil Sosa, Kishore Rathinavel,
+Kushal Kardam Vyas, Nigel Clarke, Abdelrahman Abdelhamed, Abhijith Punnappurath, and Michael Brown.

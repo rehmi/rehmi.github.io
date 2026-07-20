@@ -1,7 +1,7 @@
 +++
 title = "j4k3t 2.0"
 project_date = "Feb 2006"
-tags = ["wearables", "e-textiles", "music", "interfaces"]
+tags = ["wearables", "e-textiles", "music"]
 project_thumb = "/assets/thumbnails/wearables-and-textiles/j4k3t-20/thumb.jpg"
 +++
 

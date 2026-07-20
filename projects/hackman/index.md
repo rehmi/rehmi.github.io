@@ -7,21 +7,27 @@ project_thumb = "/assets/thumbnails/wearables-and-textiles/hackman/thumb.svg"
 
 # HackMan 0.4
 
-![HackMan 0.4 system diagram: a 486SL single-board PC in a fanny pack driving a Private Eye heads-up display, typed with a Twiddler one-handed keyboard, powered by a 6-volt gel cell](system.svg)
+~~~
+<figure style="max-width:270px;margin:2rem auto;text-align:center;">
+  <img src="hackman-worn.jpg" alt="Wearing the self-built HackMan rig: a Private Eye heads-up display over one eye and a Twiddler chording keyboard in hand" style="width:100%;height:auto;border-radius:8px;">
+  <figcaption style="font-size:0.85rem;color:var(--muted);margin-top:0.5rem;">The self-built rig, worn — Private Eye display over one eye, Twiddler in hand.</figcaption>
+</figure>
+~~~
 
 ## Overview
 
 > "This is a Linux box that you can carry in a fanny pack."
 
-HackMan 0.4 was Rehmi Post's self-built wearable computer, circa 1995–96 — a general-purpose PC
+HackMan 0.4 was a self-built wearable computer, circa 1995–96 — a general-purpose PC
 running Linux and DOS, packed into a converted Eagle Creek fanny pack and worn on the body,
 driving a heads-up display and typed one-handed. It predates the smartphone era by more than a
 decade: a full Linux workstation you carried on your hip and read through a monocle.
 
 ## System
 
-Around a 25 MHz Intel 486SL single-board computer (an SMOS CARDIO-486), Rehmi built a complete
-wearable:
+![HackMan 0.4 system diagram: a 486SL single-board PC in a fanny pack driving a Private Eye heads-up display, typed with a Twiddler one-handed keyboard, powered by a 6-volt gel cell](system.svg)
+
+The build centered on a 25 MHz Intel 486SL single-board computer (an SMOS CARDIO-486):
 
 | | |
 |---|---|
@@ -43,7 +49,7 @@ under Linux.
 
 The build was full of period hardware craft:
 
-- Rehmi tore open the sealed CARDIO-486 module "to get better coupling for conductive heat
+- The sealed CARDIO-486 module was torn open "to get better coupling for conductive heat
   extraction."
 - Hand-modified power management: a 1-farad supercapacitor for CMOS backup, a switching 3.3 V
   regulator swapped in for efficiency, and SMT transistors to power-gate the disk and ISA bus.
@@ -71,13 +77,13 @@ apart:
 
 ## Context
 
-HackMan 0.4 belongs to the mid-1990s MIT wearable-computing scene — see
-[Wearable Computing](/projects/wearable-computing/) for the broader story. The original project
-page was written by Rehmi at the MIT Media Lab in June 1996.
+HackMan grew out of a wearable built and worn independently, before the MIT Media Lab — an early,
+self-taught arrival at wearable computing. Showing that machine to Thad Starner led to an invitation
+to join the Media Lab's wearable-computing group, the "Borgs."
 
 ~~~
-<figure style="max-width:200px;margin:2rem auto;text-align:center;">
-  <img src="rehmi-wearable.jpg" alt="Rehmi wearing the HackMan rig, with the Private Eye heads-up display" style="width:100%;height:auto;border-radius:8px;">
-  <figcaption style="font-size:0.85rem;color:var(--muted);margin-top:0.5rem;">Rehmi wearing HackMan, the Private Eye display over one eye (MIT Media Lab, ~1997).</figcaption>
-</figure>
+<!-- MARKER: insert here — the story of meeting Thad Starner (1994), including his invitation email. -->
 ~~~
+
+For the Media Lab years that followed, see [Wearable Computing](/projects/wearable-computing/). The
+original project page dates to the MIT Media Lab, June 1996.

@@ -1,7 +1,7 @@
 +++
 title = "Particle Trap IMU"
 project_date = "2003"
-tags = ["inertial-sensing", "sensors", "physics", "PhD"]
+tags = ["inertial-sensing", "sensors"]
 project_thumb = "/assets/thumbnails/inertial-sensing/particle-trap-imu/thumb.jpg"
 +++
 

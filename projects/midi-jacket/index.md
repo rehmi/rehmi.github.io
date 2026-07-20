@@ -1,7 +1,7 @@
 +++
 title = "MIDI Jacket"
 project_date = "1997"
-tags = ["wearables", "e-textiles", "music", "interfaces"]
+tags = ["wearables", "e-textiles", "music"]
 project_thumb = "/assets/thumbnails/wearables-and-textiles/midi-jacket/thumb.jpg"
 +++
 

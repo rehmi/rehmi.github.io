@@ -1,7 +1,7 @@
 +++
 title = "MEMS Interferometric Accelerometer"
 project_date = "Fall 1999"
-tags = ["MEMS", "sensors", "accelerometer", "interferometry"]
+tags = ["inertial-sensing", "sensors", "micro-fabrication"]
 project_thumb = "/assets/thumbnails/inertial-sensing/mems-accelerometer/thumb.jpg"
 +++
 

@@ -1,7 +1,7 @@
 +++
 title = "Multitouch Table at MoMA"
 project_date = "1999"
-tags = ["sensors", "multitouch", "museum", "interaction"]
+tags = ["interaction", "sensors", "art"]
 project_thumb = "/assets/thumbnails/sensors/taufish/thumb.jpg"
 +++
 

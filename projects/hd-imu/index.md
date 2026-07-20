@@ -2,17 +2,17 @@
 title = "High-Definition IMU"
 project_date = "2007–2009"
 tags = ["inertial-sensing", "sensors", "wireless"]
-project_thumb = "/assets/thumbnails/inertial-sensing/hd-imu/thumb.svg"
+project_thumb = "/assets/thumbnails/inertial-sensing/hd-imu/thumb.jpg"
 +++
 
 # High-Definition IMU
 
-![Pipeline: wireless IMU nodes on each limb, whose 3-axis motion is segmented into strides and reconstructed by constrained integration](pipeline.svg)
+![A horse instrumented with a wireless inertial node on each lower leg, led by a handler in an arena — the high-definition IMU in the field](hd-imu-horse.jpg)
 
 ## Overview
 
-Through his engineering company **Asteism**, Rehmi Post developed a hardened, high-resolution,
-wireless inertial measurement unit — the *HD IMU* — carried from concept through prototype to
+At the engineering company **Asteism**, a hardened, high-resolution, wireless inertial
+measurement unit — the *HD IMU* — was developed and carried from concept through prototype to
 volume production. Small wireless nodes, each combining acceleration and angular-rate sensing,
 attach directly to a moving body; the system captures high-rate motion and reconstructs the
 detailed trajectory of each limb through a stride.
@@ -22,6 +22,19 @@ every footfall, and signal processing turns the raw inertial streams into per-st
 which asymmetries in gait can be read.
 
 ## The hardware
+
+~~~
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem;margin:1.5rem 0;">
+  <figure style="margin:0;">
+    <img src="hd-imu-nodes.jpg" alt="Five hardened wireless sensor nodes in sealed black enclosures" style="width:100%;border-radius:8px;display:block;">
+    <figcaption style="font-size:0.85rem;color:var(--muted);margin-top:0.4rem;">Hardened, wireless nodes in sealed enclosures — one per limb.</figcaption>
+  </figure>
+  <figure style="margin:0;">
+    <img src="hd-imu-board.jpg" alt="Macro of a node's circuit board: surface-mount inertial sensors, flash memory, and a taped lithium cell" style="width:100%;border-radius:8px;display:block;">
+    <figcaption style="font-size:0.85rem;color:var(--muted);margin-top:0.4rem;">Inside a node — multi-axis inertial sensors, flash logging, and battery.</figcaption>
+  </figure>
+</div>
+~~~
 
 - **Hardened and wireless.** The nodes were built to survive real-world use on a moving animal —
   rugged enough for the field, wireless so nothing tethers the subject — and taken all the way

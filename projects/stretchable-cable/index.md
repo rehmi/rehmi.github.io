@@ -1,7 +1,7 @@
 +++
 title = "Stretchable Cable"
 project_date = "2005, Sep"
-tags = ["e-textiles", "electronics", "materials", "wearables"]
+tags = ["e-textiles", "wearables", "hardware"]
 project_thumb = "/assets/thumbnails/wearables-and-textiles/stretchable-cable/thumb.jpg"
 +++
 

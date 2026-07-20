@@ -1,19 +1,19 @@
 +++
 title = "TriboTouch"
 project_date = "2013–2019"
-tags = ["interaction", "sensors", "samsung"]
+tags = ["interaction", "sensors"]
 project_thumb = "/assets/thumbnails/other/tribotouch/thumb.svg"
 +++
 
 # TriboTouch
 
-![TriboTouch: a contacting object displaces triboelectric charge on a single passive electrode, read out by a charge amplifier](sensing.svg)
+![A charge-displacement trace from a single passive electrode: each contact and release produces a transient — the same signal whether or not the touching object conducts](tribotouch-charge.png)
 
 ## Overview
 
-At Samsung Research America's Think Tank Team, Rehmi Post led the development of **TriboTouch**,
-a triboelectric touch-sensing technology — taken from initial invention and prototyping through
-to a production ASIC/SoC. Where a conventional touchscreen drives the panel with a signal and
+**TriboTouch** is a triboelectric touch-sensing technology developed at Samsung Research
+America's Think Tank Team — taken from initial invention and prototyping through to a production
+ASIC/SoC. Where a conventional touchscreen drives the panel with a signal and
 measures capacitance, TriboTouch is *passive*: it senses the small charge displaced when two
 surfaces come into contact or separate. Because that contact charge appears whether or not the
 touching object conducts, a single TriboTouch electrode can register a bare finger, a gloved
@@ -62,7 +62,7 @@ disambiguate the shared name.
 
 ## Patents
 
-Rehmi's TriboTouch is documented in Samsung's "Interaction sensing" patent family (priority 2013):
+The triboelectric TriboTouch is documented in Samsung's "Interaction sensing" patent family (priority 2013):
 
 - [Interaction Sensing — US9569055](https://patents.google.com/patent/US9569055B2) (2017)
 - [Interaction Sensing — US10013132](https://patents.google.com/patent/US10013132B2) (2018)

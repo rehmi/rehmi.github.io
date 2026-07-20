@@ -1,7 +1,7 @@
 +++
 title = "Intrabody Networking"
 project_date = "1997–2023"
-tags = ["intrabody", "wearables", "communication"]
+tags = ["communication", "wearables"]
 project_thumb = "/assets/thumbnails/other/intrabody-power/thumb.svg"
 +++
 
@@ -17,13 +17,13 @@ even power — another device through contact or proximity, with no radio and no
 signal travels through the body from a transmit electrode to a receive electrode and returns
 through a capacitive path to ground.
 
-Rehmi Post has worked this idea across more than two decades, from its origins at the MIT
-Media Lab to a modern physical-layer design at Samsung — a rare "one researcher, one idea"
+This idea runs across more than two decades of work, from its origins at the MIT
+Media Lab to a modern physical-layer design at Samsung — a rare "single idea, revisited"
 throughline.
 
 ## The body-coupled bus (MIT, 1997)
 
-At the MIT Media Lab, Post and colleagues built intrabody *buses* that carried both data and
+At the MIT Media Lab, intrabody *buses* were built that carried both data and
 power through the body via capacitive coupling — including a handshake-triggered "interbody"
 exchange when two people touch.
 
@@ -37,7 +37,7 @@ exchange when two people touch.
 
 ## An efficient physical layer (Samsung, 2020→2023)
 
-Two decades later, at Samsung Research America, Post returned to the same medium with a modern
+Two decades later, at Samsung Research America, the same medium was revisited with a modern
 communications treatment: an efficient physical layer for intrabody networks that encodes input
 data into spreading codes mapped onto frequency subcarriers, transmitted through the body via
 capacitively coupled electrodes.

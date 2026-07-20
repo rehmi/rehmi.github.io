@@ -7,7 +7,7 @@
 [Google Scholar](http://scholar.google.com/citations?user=b_pBos8AAAAJ&hl=en) |
 [Research Gate](http://www.researchgate.net/profile/Ernest_Post)
 
-My work spans academia, industry, and entrepreneurship, with a focus on pushing the boundaries of physical computing and embedded systems. I combine expertise in physics, computer science, and engineering to develop innovative solutions in areas ranging from wearable technology to sensor systems.
+This work spans academia, industry, and entrepreneurship, with a focus on pushing the boundaries of physical computing and embedded systems — combining physics, computer science, and engineering to develop solutions in areas ranging from wearable technology to sensor systems.
 
 ## Recent professional experience
 

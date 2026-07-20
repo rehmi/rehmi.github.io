@@ -1,7 +1,7 @@
 +++
 title = "Sp4rkl3"
 project_date = "Jan 2008"
-tags = ["wearables", "energy-harvesting", "e-textiles", "fashion"]
+tags = ["wearables", "e-textiles", "art"]
 project_thumb = "/assets/thumbnails/wearables-and-textiles/sparkle/thumb.jpg"
 +++
 

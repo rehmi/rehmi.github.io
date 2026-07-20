@@ -7,8 +7,8 @@ hasmath = false
 ~~~
 <header class="home-hero">
   <p class="home-eyebrow">Physicist · Engineer · Inventor</p>
-  <h1 class="home-title">Instruments and interfaces at the seam of atoms, textiles, and computation.</h1>
-  <p class="home-lead">Three decades building things that measure and reveal the physical world &mdash; microscopic sculpture on single grains of sand, matter levitated in mid-air, computers woven into cloth, and cameras that see straight through their own displays.</p>
+  <h1 class="home-title">Instruments and interfaces across physics, textiles, and computation.</h1>
+  <p class="home-lead">Three decades of work in physical computing, sensing, and fabrication &mdash; from microscopic sculpture and magnetic levitation to wearable computers and under-display cameras.</p>
 </header>
 
 <div class="current-work">
@@ -50,7 +50,7 @@ hasmath = false
       <p class="feat-num">03</p>
       <h3 class="feat-title">Sandcastles</h3>
       <p class="feat-year">2010&ndash;2012</p>
-      <p class="feat-desc">Microscopic castles carved onto individual grains of sand with a focused ion beam &mdash; architecture at the scale of dust.</p>
+      <p class="feat-desc">Microscopic castles carved onto individual grains of sand with a focused ion beam.</p>
     </div>
   </a>
 
@@ -60,7 +60,7 @@ hasmath = false
       <p class="feat-num">04</p>
       <h3 class="feat-title">ZeroN Levitated Interaction Element</h3>
       <p class="feat-year">2011</p>
-      <p class="feat-desc">A physical mass held and moved through mid-air by a computer-controlled magnetic field &mdash; a tangible pixel that floats.</p>
+      <p class="feat-desc">A physical mass held and moved through mid-air by a computer-controlled magnetic field.</p>
     </div>
   </a>
 
@@ -70,7 +70,7 @@ hasmath = false
       <p class="feat-num">05</p>
       <h3 class="feat-title">Sp4rkl3</h3>
       <p class="feat-year">2008</p>
-      <p class="feat-desc">A skirt that lights itself from the triboelectric charge of its own motion &mdash; energy harvested from movement and woven into the garment, no batteries.</p>
+      <p class="feat-desc">A skirt that lights itself from the triboelectric charge of its own motion &mdash; no batteries.</p>
     </div>
   </a>
 
@@ -90,7 +90,7 @@ hasmath = false
       <p class="feat-num">07</p>
       <h3 class="feat-title">Pengachu</h3>
       <p class="feat-year">2000&ndash;2001</p>
-      <p class="feat-desc">A cheap, open, wireless Linux palmtop for education &mdash; a hackable pocket computer that presaged the OLPC XO laptop.</p>
+      <p class="feat-desc">A cheap, open, wireless Linux palmtop for education &mdash; a precursor to the OLPC XO laptop.</p>
     </div>
   </a>
 

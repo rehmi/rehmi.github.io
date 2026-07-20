@@ -7,7 +7,7 @@ project_thumb = "/assets/thumbnails/other/intrabody-power/thumb.svg"
 
 # Intrabody Networking
 
-![Body-coupled communication: signal travels through the body from a transmit electrode to a receive electrode, with a capacitive return through ground](coupling.svg)
+![The body-coupled channel's frequency response — a passband in the low-MHz range where a signal capacitively coupled into the body travels efficiently, carrying data on subcarriers within it](intrabody-channel.png)
 
 ## Overview
 

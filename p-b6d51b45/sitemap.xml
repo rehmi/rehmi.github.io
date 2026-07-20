@@ -8,6 +8,12 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>https://rehmi.github.io/projects/utartan/index.html</loc>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>https://rehmi.github.io/projects/index.html</loc>
     <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -80,13 +86,13 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://rehmi.github.io/projects/intrabody-power/index.html</loc>
+    <loc>https://rehmi.github.io/projects/e-broidery/index.html</loc>
     <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://rehmi.github.io/projects/sparkle/index.html</loc>
+    <loc>https://rehmi.github.io/projects/intrabody-power/index.html</loc>
     <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -105,6 +111,12 @@
 </url>
 <url>
     <loc>https://rehmi.github.io/projects/camera-behind-display/code/index.html</loc>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://rehmi.github.io/projects/sparkle/index.html</loc>
     <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -176,7 +188,25 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>https://rehmi.github.io/projects/interactive-tablecloth/index.html</loc>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>https://rehmi.github.io/wearables/index.html</loc>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://rehmi.github.io/projects/openfinch/index.html</loc>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://rehmi.github.io/projects/functional-digital-materials/index.html</loc>
     <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

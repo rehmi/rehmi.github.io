@@ -27,7 +27,7 @@ This work spans academia, industry, and entrepreneurship, with a focus on pushin
 
 - Ph.D., MIT Media Lab - Developed a novel 6-degree-of-freedom inertial measurement unit (IMU) based on trapped micro particles
 - M.Sc., MIT Media Lab - Pioneered e-broidery: electronic circuitry on wash-and-wear textile substrates
-- B.Sc., Physics (Honors), University of Massachusetts - Focused on condensed-matter systems and superconducting devices at Tuominen Nanostructures Lab
+- B.Sc., University of Massachusetts Amherst - Major in Physics (*cum laude*), minor in Computer Science; focused on condensed-matter systems and superconducting devices at Tuominen Nanostructures Lab
 - Kelly Scholar, University of Maryland - Worked on multicomputer architecture implementation
 
 ## Research Interests

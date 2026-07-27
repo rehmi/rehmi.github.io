@@ -49,7 +49,7 @@ flagship paper listed below.
 
 E-broidery became the fabrication method behind a family of wearable pieces — most visibly the
 [Musical MIDI Jacket](/projects/midi-jacket/), whose embroidered keypad (above) plays music at a
-touch and which entered the London Science Museum's permanent collection. The work was shown in the
+touch and which is on permanent loan to the Wellcome Wing of the Science Museum, London. The work was shown in the
 SIGGRAPH '98 Art Gallery and runs through the broader thread of e-textile and wearable work in this
 portfolio.
 

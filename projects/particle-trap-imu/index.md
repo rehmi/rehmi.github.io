@@ -43,3 +43,8 @@ A particle in the trap is thus not perfectly still but rapidly oscillating as, i
 As noted by Michael Judy, a researcher at Analog Devices (the company that built the Wii's accelerometers): "If [we] can get all six degrees out of it, it would be huge. That's the holy grail right now in the human interface to electronics." 
 
 The technology has significant potential applications in navigation in environments where GPS information is either unreliable or too imprecise. For instance, local spatial tracking would let hospital workers immediately determine each other's locations, even on different floors of a large building.
+
+## Related Work
+
+- [MEMS Interferometric Accelerometer](/projects/mems-accelerometer/)
+- [Haltere IMU](/projects/haltere-imu/)

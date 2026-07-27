@@ -76,6 +76,8 @@ See [current work](/) for Raven.
 ## Open computing & networking
 
 {{project_grid
+    "/projects/early-unix-hacks/" "/assets/thumbnails/other/early-unix-hacks/thumb.jpg" "Early Unix Hacks" "1982–1985" "Two early-1980s systems hacks from net.unix-wizards — a /dev/kmem keystroke snooper that got kernel memory locked down, and a twenex-style ^T status line for the BSD tty driver."
+
     "/projects/pengachu/" "/assets/thumbnails/other/pengachu/thumb.jpg" "Pengachu" "2000–2001" "A cheap, open, wireless Linux palmtop for education — an OLPC precursor built at the MIT Media Lab."
 
     "/projects/hello-radio/" "/assets/thumbnails/other/hello-radio/thumb.jpg" "Hello Radio" "2009" "A low-cost milled-PCB wireless transceiver — up to 256 kbps and 1 km range — from the MIT Center for Bits and Atoms."

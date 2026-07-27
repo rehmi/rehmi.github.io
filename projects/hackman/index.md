@@ -41,9 +41,14 @@ The build centered on a 25 MHz Intel 486SL single-board computer (an SMOS CARDIO
 | Size / weight | 35 × 140 × 180 mm · 615 g without battery, in a steel case |
 | Cost | under \$3000 in over-the-counter parts |
 
-Benchmarked over the net by Thad Starner at roughly 12,096 dhrystones/sec and 5 million
-whetstones/sec — "about the speed of an SGI 4D/20 or an early Sparc 4/110" — and 12.52 BogoMips
-under Linux.
+Under Linux it reported 12.52 BogoMips. The dhrystone figures came from Thad Starner, who
+benchmarked the machine remotely over the net:
+
+> BTW, for all of your information, I recently tested Rehmi's system over the net and got 12096
+> dhrystones/second and 5 million whetstones/sec which puts it about the speed of a SGI 4D/20
+> (12 Mhz R3000) or an early Sparc 4/110.
+
+Those were the figures for the 25 MHz card.
 
 ## Hardware hacking
 
@@ -78,12 +83,12 @@ apart:
 ## Context
 
 HackMan grew out of a wearable built and worn independently, before the MIT Media Lab — an early,
-self-taught arrival at wearable computing. Showing that machine to Thad Starner led to an invitation
-to join the Media Lab's wearable-computing group, the "Borgs."
+self-taught arrival at wearable computing.
 
-~~~
-<!-- MARKER: insert here — the story of meeting Thad Starner (1994), including his invitation email. -->
-~~~
+That self-built machine is also part of how the Media Lab arrival happened. A first meeting with Thad
+Starner — and his own wearable computer, Lizzy — came over coffee in 1994. An application to the Media
+Lab followed in the winter of 1995–96, acceptance came that spring, and the start as a graduate student
+in the summer of 1996.
 
 For the Media Lab years that followed, see [Wearable Computing](/projects/wearable-computing/). The
 original project page dates to the MIT Media Lab, June 1996.

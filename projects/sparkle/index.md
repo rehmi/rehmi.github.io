@@ -7,15 +7,15 @@ project_thumb = "/assets/thumbnails/wearables-and-textiles/sparkle/thumb.jpg"
 
 # Sp4rkl3
 
-![Sp4rkl3 dress in action](03.jpg)
+![Sp4rkl3 skirt in action](03.jpg)
 
 ## Overview
 
-Sp4rkl3 is an innovative dress that creates its own light show powered entirely by the wearer's movement. As the skirt moves and sways, it generates electricity that powers LED illumination, creating a dynamic display that responds to the wearer's activity level. The design contains no batteries, instead utilizing a novel power generation mechanism that creates a dazzling effect while keeping the electronics virtually invisible.
+Sp4rkl3 is a light-emitting skirt powered entirely by the wearer's own motion. As the skirt moves and sways, its layers of fabric come into contact and separate; that contact generates a triboelectric charge, which is harvested to drive the skirt's LEDs. There are no batteries — the display is powered by the same movement it responds to, and the electronics stay all but invisible in the cloth.
 
 ## Technical Innovation
 
-The dress demonstrates a new approach to wearable power generation, harvesting electrostatic energy from natural movement. This technology not only powers the LED display but also serves as a visible gauge of the wearer's motion level, encouraging physical activity through an immediate visual feedback loop.
+The skirt demonstrates triboelectric power harvesting in a textile: the charge produced when dissimilar fabrics touch and part is collected and used directly, so the LED display also reads as a gauge of how much the wearer is moving. The mechanism is documented in the publications below (electrostatic power harvesting in textiles), and it is the same contact-electrification physics later turned to sensing in [TriboTouch](/projects/tribotouch/).
 
 ## Publications
 

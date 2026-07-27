@@ -57,3 +57,9 @@ While braided conductors are already used in cable manufacturing, they haven't p
 ## Credits
 
 Project by Rehmi Post and Kit Waal
+
+## Related Work
+
+- [µTartan](/projects/utartan/)
+- [Musical MIDI Jacket](/projects/midi-jacket/)
+- [j4k3t 2.0](/projects/j4k3t-20/)

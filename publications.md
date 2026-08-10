@@ -89,15 +89,15 @@
    M. Reynolds, J. Richards, S. Pathare, H. Tsai, Y. Maguire, E. Post, R. Pappu, and B. Schoner,
    MIT Auto-ID Center Technical Report MIT-AUTOID-WH-012, 2002, pp. 1-24.
 
-4. [Scalable Interactive Surfaces Using Charge Source Tomography](/assets/pdf/rfish-dyd02.pdf),
-   E. R. Post, U. Pawar, A. Agarwal, N. Gershenfeld,
+4. [Scalable Interactive Surfaces via Charge Source Tomography](/assets/pdf/rfish-dyd02.pdf),
+   E. R. Post, A. Agarwal, U. Pawar, N. Gershenfeld,
    2nd Intl. Conference on Open Collaborative Design of Sustainable Innovation.
    December 1-2, 2002, Bangalore, India. (2002)
 
 ## Theses
 
 1. [Inertial Measurement via Dynamics of Trapped Particles](/assets/pdf/post-phd-dissertation-2003.pdf),
-   PhD Dissertation, MIT, August 2003
+   PhD Dissertation, MIT, August 2003 (41 MB)
    [hdl:1721.1/29991](http://hdl.handle.net/1721.1/29991)
 
 2. [E-broidery: An Infrastructure for Washable Computing](/assets/pdf/post-msc-thesis-1999.pdf),

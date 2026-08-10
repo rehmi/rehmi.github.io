@@ -96,10 +96,11 @@
 
 ## Theses
 
-1. **Inertial Measurement via Dynamics of Trapped Particles**,
+1. [Inertial Measurement via Dynamics of Trapped Particles](/assets/pdf/post-phd-dissertation-2003.pdf),
    PhD Dissertation, MIT, August 2003
+   [hdl:1721.1/29991](http://hdl.handle.net/1721.1/29991)
 
-2. **E-broidery: An Infrastructure for Washable Computing**,
+2. [E-broidery: An Infrastructure for Washable Computing](/assets/pdf/post-msc-thesis-1999.pdf),
    MSc Thesis, MIT, February 1999
 
 ## Patents

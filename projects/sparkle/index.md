@@ -11,11 +11,11 @@ project_thumb = "/assets/thumbnails/wearables-and-textiles/sparkle/thumb.jpg"
 
 ## Overview
 
-Sp4rkl3 is a light-emitting skirt powered entirely by the wearer's own motion. As the skirt moves and sways, its layers of fabric come into contact and separate; that contact generates a triboelectric charge, which is harvested to drive the skirt's LEDs. There are no batteries — the display is powered by the same movement it responds to, and the electronics stay all but invisible in the cloth.
+When two dissimilar materials touch and separate, they exchange charge — the "static electricity" that builds up walking across a carpet in dry weather and sparks off the next doorknob. Most research into triboelectricity tries to minimize or drain away that charge. Sp4rkl3 does the opposite: it is a skirt whose layers of fabric touch and part as the wearer moves, and it harvests the charge of its own motion to light LED displays set into the cloth. There are no batteries — the display is powered by the same movement it responds to, so the light also reads as a gauge of the wearer's activity.
 
-## Technical Innovation
+## How it works
 
-The skirt demonstrates triboelectric power harvesting in a textile: the charge produced when dissimilar fabrics touch and part is collected and used directly, so the LED display also reads as a gauge of how much the wearer is moving. The mechanism is documented in the publications below (electrostatic power harvesting in textiles), and it is the same contact-electrification physics later turned to sensing in [TriboTouch](/projects/tribotouch/).
+The charge produced at each contact and separation is collected and used directly; under test, a single harvesting panel delivered 657 μJ per charging cycle — an average power of 1.3 mW under those conditions. The garment held up to use, too: over the course of one exhibition, where visitors could shake the skirt at the press of a button, we estimate it was shaken more than 50,000 times. The honest difficulty is the physics itself — triboelectricity is well known to be hard to model, predict, and control. The same contact-electrification physics was later turned from harvesting to sensing in [TriboTouch](/projects/tribotouch/).
 
 ## Publications
 

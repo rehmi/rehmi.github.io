@@ -17,13 +17,12 @@ even power — another device through contact or proximity, with no radio and no
 signal travels through the body from a transmit electrode to a receive electrode and returns
 through a capacitive path to ground.
 
-This idea runs across more than two decades of work, from its origins at the MIT
-Media Lab to a modern physical-layer design at Samsung — a rare "single idea, revisited"
-throughline.
+The idea runs across more than two decades of work, from its origins at the MIT
+Media Lab in 1997 to a physical-layer design filed at Samsung in 2020.
 
 ## The body-coupled bus (MIT, 1997)
 
-At the MIT Media Lab, intrabody *buses* were built that carried both data and
+At the MIT Media Lab, we built intrabody *buses* that carried both data and
 power through the body via capacitive coupling — including a handshake-triggered "interbody"
 exchange when two people touch.
 
@@ -46,10 +45,7 @@ capacitively coupled electrodes.
   Networks](https://patents.google.com/patent/US11700069B2) (Samsung; filed 2020, granted 2023;
   sole inventor).
 
-The span from the 1997 ISWC paper to the 2020-filed Samsung patent is a roughly 23-year arc —
-the same core insight (use the body itself as the wire), revisited with the tools of a new era.
-
-## Why it matters
+## Why couple through the body
 
 Body-coupled communication needs no antenna and radiates very little, so it is inherently
 low-power and comparatively private — signals stay close to the body rather than broadcasting

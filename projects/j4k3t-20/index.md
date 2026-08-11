@@ -11,23 +11,15 @@ project_thumb = "/assets/thumbnails/wearables-and-textiles/j4k3t-20/thumb.jpg"
 
 ## Overview
 
-j4k3t 2.0 represents the evolution of wearable electronic interfaces, building upon the foundation laid by the Musical MIDI Jacket from 1997. This project demonstrates how e-textile techniques have matured while maintaining their accessibility to makers and DIY enthusiasts.
+j4k3t 2.0 (2006) picks up where the [Musical MIDI Jacket](/projects/midi-jacket/) left off. The
+1997 jacket showed that off-the-shelf conductive threads and fabrics could serve at once as
+sensors and as electrical interconnect in a garment someone could actually wear. Nine years
+later we rebuilt it: smaller, more refined, and — as we put it at the time — "350% cuter."
 
-## Innovation
-
-The Musical MIDI Jacket, developed in 1997 by Media Lab students, was a pioneering project that first demonstrated the use of off-the-shelf conductive threads and fabrics as media for:
-- Sensing
-- Electronic interconnection
-
-j4k3t 2.0 shows how these techniques have evolved, becoming:
-- Smaller
-- More sophisticated
-- More aesthetically refined (or as the team puts it, "350% cuter")
-- Still accessible to anyone with basic tools (sewing machine and soldering iron)
-
-## Historical Context
-
-This project stands as an important milestone in the evolution of e-textiles, showing how the field progressed from early experiments to more refined and practical implementations while maintaining the core principle of accessibility to makers and DIY enthusiasts.
+The instrument is the same: a keypad stitched in conductive thread, played by touch. What
+changed is everything around it — the electronics shrank and the stitching got finer, while the
+whole build stayed within reach of anyone with a sewing machine and a soldering iron. That last
+constraint was the point: a musical garment you could make, not just admire.
 
 ## Team
 

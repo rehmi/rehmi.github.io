@@ -11,13 +11,15 @@ project_thumb = "/assets/thumbnails/sensors/taufish/thumb.jpg"
 
 ## Overview
 
-An interactive multitouch table developed in cooperation with the Museum of Modern Art (MoMA) New York for the ["Un-Private House" exhibition](http://www.moma.org/interactives/exhibitions/1999/un-privatehouse/credits.html) in 1999.
+For the Museum of Modern Art's 1999 ["Un-Private House" exhibition](http://www.moma.org/interactives/exhibitions/1999/un-privatehouse/credits.html), we built a table that could tell where visitors' hands were — on the surface and in the air above it — with nothing to touch but the table itself: no camera, no overlay, just an array of electrodes hidden beneath the surface.
 
-## Technical Details
+## How it senses
 
-For this interactive multitouch table, I developed a sophisticated sensing array installed beneath the table surface. This array could precisely locate the x and y positions of users' hands both on and above the table surface. 
+Each electrode in the array is charged and discharged continuously, and the electronics measure how quickly charge accumulates. A hand near an electrode loads it: more charge is needed, so the rate slows, and the slowing falls off with distance. Comparing the readings across the array against a model of the expected loading locates a hand in x and y and tells when it enters a designated "hotspot."
 
-The system works by measuring the rate at which electrical charge accumulates on each electrode in the array. When a hand approaches the table, it affects the local electric field, requiring more charge and thus slowing down this rate. A predictive model was developed to calculate the expected charge variations based on hand position, allowing the system to recognize when a hand enters designated "hotspot" areas.
+The sensor behind the table was the **tauFish**, the simplest of a family of electric field sensing instruments (Fish, SmartFish, LazyFish, tauFish) developed at the MIT Media Lab. Where its predecessors used synchronous detection, the tauFish simply times each electrode's charging — and it is the measurement of this time constant, τ, that gives the tauFish its name.
+
+- **Paper:** [An Installation of Interactive Furniture](/assets/pdf/omojola-isj393-part3.pdf), O. Omojola, E. R. Post, M. D. Hancher, J. P. Strachan, P. Russo, N. Gershenfeld, *IBM Systems Journal* **39**(3–4), 2000.
 
 ## Gallery
 

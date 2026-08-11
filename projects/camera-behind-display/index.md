@@ -220,7 +220,7 @@ diffraction orders back toward a compact point:
 </div>
 ~~~
 
-## Other innovations
+## The rest of the family
 
 The same measure-and-invert idea runs through the rest of the patent family:
 

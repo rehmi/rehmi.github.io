@@ -11,8 +11,8 @@ project_thumb = "/assets/thumbnails/inertial-sensing/hd-imu/thumb.jpg"
 
 ## Overview
 
-At the engineering company **Asteism**, a hardened, high-resolution, wireless inertial
-measurement unit — the *HD IMU* — was developed and carried from concept through prototype to
+At the engineering company **Asteism**, we built a hardened, high-resolution, wireless inertial
+measurement unit — the *HD IMU* — and carried it from concept through prototype to
 volume production. Small wireless nodes, each combining acceleration and angular-rate sensing,
 attach directly to a moving body; the system captures high-rate motion and reconstructs the
 detailed trajectory of each limb through a stride.

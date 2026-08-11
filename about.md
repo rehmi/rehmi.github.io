@@ -7,7 +7,7 @@
 [Google Scholar](http://scholar.google.com/citations?user=b_pBos8AAAAJ&hl=en) |
 [Research Gate](http://www.researchgate.net/profile/Ernest_Post)
 
-This work spans academia, industry, and entrepreneurship, with a focus on pushing the boundaries of physical computing and embedded systems — combining physics, computer science, and engineering to develop solutions in areas ranging from wearable technology to sensor systems.
+This work spans academia, industry, and entrepreneurship — physics, computer science, and engineering brought together to build physical computing and embedded systems, from wearable technology to sensors.
 
 ## Recent professional experience
 
@@ -26,7 +26,7 @@ This work spans academia, industry, and entrepreneurship, with a focus on pushin
 ## Education
 
 - Ph.D., MIT Media Lab - Developed a novel 6-degree-of-freedom inertial measurement unit (IMU) based on trapped micro particles
-- M.Sc., MIT Media Lab - Pioneered e-broidery: electronic circuitry on wash-and-wear textile substrates
+- M.Sc., MIT Media Lab - Developed e-broidery: electronic circuitry on wash-and-wear textile substrates
 - B.Sc., University of Massachusetts Amherst - Major in Physics (*cum laude*), minor in Computer Science; focused on condensed-matter systems and superconducting devices at Tuominen Nanostructures Lab
 - Kelly Scholar, University of Maryland - Worked on multicomputer architecture implementation
 

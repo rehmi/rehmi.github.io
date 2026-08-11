@@ -13,7 +13,7 @@ project_thumb = "/assets/thumbnails/wearables-and-textiles/stretchable-cable/thu
 
 We demonstrate how to arrange non-elastic elements (wires, fibers, etc.) in a geometry that can extend to several times its resting length. This can be achieved using existing braiding techniques and materials, eliminating the need for specialized materials or equipment.
 
-## Technical Innovation
+## Constant resistance under stretch
 
 The resistance of this cable remains constant when stretched, unlike other elastic conductors whose resistance is a bulk or surface property. Since the conducting fiber does not itself stretch, the basic properties of the wire do not change as the braid is stretched.
 

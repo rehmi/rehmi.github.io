@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="t3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#0b5cff"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="600" height="450" fill="#f6f7f9"/>
+  <text x="300" y="54" text-anchor="middle" font-size="30" font-weight="700" fill="#1a1a1a">TriboTouch</text>
+  <text x="300" y="82" text-anchor="middle" font-size="16" fill="#626871">triboelectric touch sensing</text>
+
+  <!-- Contact object -->
+  <rect x="150" y="150" width="50" height="94" rx="22" fill="#e9edf2" stroke="#626871" stroke-width="1.5"/>
+  <text x="175" y="140" text-anchor="middle" font-size="13" fill="#1a1a1a">contact</text>
+
+  <!-- Charge separation -->
+  <text x="150" y="236" font-size="15" font-weight="700" fill="#c23a3a">+ + +</text>
+  <text x="150" y="278" font-size="15" font-weight="700" fill="#0b5cff">− − −</text>
+
+  <!-- Electrode -->
+  <line x1="80" y1="260" x2="330" y2="260" stroke="#9aa0a6" stroke-width="1.5"/>
+  <rect x="80" y="262" width="250" height="16" rx="4" fill="#dbe7ff" stroke="#0b5cff" stroke-width="2"/>
+  <text x="205" y="300" text-anchor="middle" font-size="13" fill="#626871">single electrode</text>
+
+  <!-- Readout -->
+  <text x="308" y="252" text-anchor="middle" font-size="15" font-weight="600" fill="#0b5cff">Δq</text>
+  <polyline points="316,278 316,338 352,338" fill="none" stroke="#0b5cff" stroke-width="2.5" marker-end="url(#t3)"/>
+  <rect x="360" y="316" width="104" height="44" rx="8" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="412" y="343" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">charge amp</text>
+  <line x1="464" y1="338" x2="494" y2="338" stroke="#0b5cff" stroke-width="2.5" marker-end="url(#t3)"/>
+  <rect x="502" y="310" width="86" height="56" rx="8" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.5"/>
+  <polyline points="512,352 532,352 542,326 556,326 566,352 580,352" fill="none" stroke="#0b5cff" stroke-width="2"/>
+  <text x="300" y="404" text-anchor="middle" font-size="14" fill="#626871">senses conductors + insulators</text>
+</svg>

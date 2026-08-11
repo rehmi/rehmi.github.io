@@ -1,7 +1,7 @@
 +++
 title = "ZeroN: Levitated Interaction Element"
 project_date = "2011"
-tags = ["levitation", "interaction", "interface", "defying-gravity"]
+tags = ["levitation", "interaction", "art"]
 project_thumb = "/assets/thumbnails/defying-gravity/zeron-thumb.jpg" 
 +++
 

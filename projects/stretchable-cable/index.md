@@ -1,7 +1,7 @@
 +++
 title = "Stretchable Cable"
 project_date = "2005, Sep"
-tags = ["e-textiles", "electronics", "materials", "wearables"]
+tags = ["e-textiles", "wearables", "hardware"]
 project_thumb = "/assets/thumbnails/wearables-and-textiles/stretchable-cable/thumb.jpg"
 +++
 
@@ -13,7 +13,7 @@ project_thumb = "/assets/thumbnails/wearables-and-textiles/stretchable-cable/thu
 
 We demonstrate how to arrange non-elastic elements (wires, fibers, etc.) in a geometry that can extend to several times its resting length. This can be achieved using existing braiding techniques and materials, eliminating the need for specialized materials or equipment.
 
-## Technical Innovation
+## Constant resistance under stretch
 
 The resistance of this cable remains constant when stretched, unlike other elastic conductors whose resistance is a bulk or surface property. Since the conducting fiber does not itself stretch, the basic properties of the wire do not change as the braid is stretched.
 
@@ -57,3 +57,9 @@ While braided conductors are already used in cable manufacturing, they haven't p
 ## Credits
 
 Project by Rehmi Post and Kit Waal
+
+## Related Work
+
+- [µTartan](/projects/utartan/)
+- [Musical MIDI Jacket](/projects/midi-jacket/)
+- [j4k3t 2.0](/projects/j4k3t-20/)

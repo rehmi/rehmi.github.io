@@ -1,7 +1,7 @@
 +++
 title = "Hello Radio"
 project_date = "2009"
-tags = ["hardware", "radio", "communication"]
+tags = ["communication", "wireless", "hardware"]
 project_thumb = "/assets/thumbnails/other/hello-radio/thumb.jpg"
 hascode = true
 +++

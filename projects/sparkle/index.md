@@ -1,21 +1,21 @@
 +++
 title = "Sp4rkl3"
 project_date = "Jan 2008"
-tags = ["wearables", "energy-harvesting", "e-textiles", "fashion"]
+tags = ["wearables", "e-textiles", "art"]
 project_thumb = "/assets/thumbnails/wearables-and-textiles/sparkle/thumb.jpg"
 +++
 
 # Sp4rkl3
 
-![Sp4rkl3 dress in action](03.jpg)
+![Sp4rkl3 skirt in action](03.jpg)
 
 ## Overview
 
-Sp4rkl3 is an innovative dress that creates its own light show powered entirely by the wearer's movement. As the skirt moves and sways, it generates electricity that powers LED illumination, creating a dynamic display that responds to the wearer's activity level. The design contains no batteries, instead utilizing a novel power generation mechanism that creates a dazzling effect while keeping the electronics virtually invisible.
+When two dissimilar materials touch and separate, they exchange charge — the "static electricity" that builds up walking across a carpet in dry weather and sparks off the next doorknob. Most research into triboelectricity tries to minimize or drain away that charge. Sp4rkl3 does the opposite: it is a skirt whose layers of fabric touch and part as the wearer moves, and it harvests the charge of its own motion to light LED displays set into the cloth. There are no batteries — the display is powered by the same movement it responds to, so the light also reads as a gauge of the wearer's activity.
 
-## Technical Innovation
+## How it works
 
-The dress demonstrates a new approach to wearable power generation, harvesting electrostatic energy from natural movement. This technology not only powers the LED display but also serves as a visible gauge of the wearer's motion level, encouraging physical activity through an immediate visual feedback loop.
+The charge produced at each contact and separation is collected and used directly; under test, a single harvesting panel delivered 657 μJ per charging cycle — an average power of 1.3 mW under those conditions. The garment held up to use, too: over the course of one exhibition, where visitors could shake the skirt at the press of a button, we estimate it was shaken more than 50,000 times. The honest difficulty is the physics itself — triboelectricity is well known to be hard to model, predict, and control. The same contact-electrification physics was later turned from harvesting to sensing in [TriboTouch](/projects/tribotouch/).
 
 ## Publications
 

@@ -1,7 +1,7 @@
 +++
 title = "Sandcastles"
 project_date = "2010-2012"
-tags = ["art", "microscopy", "collaboration"]
+tags = ["micro-fabrication", "art"]
 project_thumb = "/assets/thumbnails/other/sandcastles-thumb.jpg"
 +++
 
@@ -11,15 +11,13 @@ project_thumb = "/assets/thumbnails/other/sandcastles-thumb.jpg"
 
 ## Overview
 
-After four years of trial-and-error experimentation, artist Vik Muniz and artist/researcher Marcelo Coelho successfully created drawings as tiny as they are tremendous: magnificent castles etched onto microscopic grains of sand—a complete and innovative reversal of building a sand castle.
+A sandcastle is ordinarily built from many grains of sand. These are the reverse: castles drawn by the artist Vik Muniz and etched onto single grains — the castle smaller than the grain. Getting there, with Muniz, Marcelo Coelho, and our team, took four years of trial and error.
 
-## Technical Details
+## How they were made
 
-To achieve these etchings, Muniz worked with Coelho and Rehmi Post to devise a highly technical process involving both antiquated technology and innovative visual tools. Muniz first created sketches of castles using a camera lucida, an optical superimposition device created in 1807 that turns images in front of the viewer into a projection on piece of paper, allowing him to trace the tiny castles.
+Muniz drew the castles with a camera lucida — an optical superimposition device dating to 1807 that projects the scene in front of the viewer onto a sheet of paper, so it can be traced by hand. The drawings then came to our team to be put onto sand.
 
-Next, he sent these drawings to Coelho and Post, who tried several microscopic drawing processes for several years with limited successes. Laser-inscription, for example, often destroyed the soft sand, or wouldn't appear distinct enough on harder grains. Finally, they settled on a Focused Ion Beam (FIB) microscope, a device typically used for fixing integrated circuits on microchips, at highly-sensitive levels to yield the shape of a castle at a microscopic scale.
-
-The FIB uses two screens: the first frames the image, depicting the electrons needed to see the grain. The second screen displays the ions which etch the grain, resulting in a crisp image of Muniz's castles.
+Several writing processes failed first. Laser inscription often destroyed the softer grains outright, and on harder grains left too faint a mark to read. What finally worked was a focused ion beam (FIB) microscope — an instrument ordinarily used to repair integrated circuits — run gently enough to draw on a grain of sand. The FIB works on two screens at once: one images the grain with electrons, the other steers the ions that do the etching. The result is a crisp castle at the scale of the grain.
 
 ## Gallery
 

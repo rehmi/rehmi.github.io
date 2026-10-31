@@ -19,13 +19,13 @@ The charge produced at each contact and separation is collected and used directl
 
 ## Publications
 
-1. **[Electrostatic Power Harvesting for Material Computing](pdf/sp4rkl3-PUC-11.pdf)**  
+1. **[Electrostatic Power Harvesting for Material Computing](/assets/pdf/sp4rkl3-PUC-11.pdf)**  
    E. R. Post, K. Waal  
    Personal and Ubiquitous Computing, v. 15 no. 2 pp. 115-121 (2011)  
    [doi:10.1007/s00779-010-0313-9](http://dx.doi.org/10.1007/s00779-010-0313-9)  
    **[Invited Paper]**
 
-2. **[Electrostatic Power Harvesting in Textiles](pdf/ElectrostaticPowerHarvesting.pdf)**  
+2. **[Electrostatic Power Harvesting in Textiles](/assets/pdf/ElectrostaticPowerHarvesting.pdf)**  
    E. R. Post, K. Waal  
    Proc. ESA Annual Meeting on Electrostatics 2010, Paper G1
 

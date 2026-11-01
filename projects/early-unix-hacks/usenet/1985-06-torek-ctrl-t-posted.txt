@@ -1,0 +1,16 @@
+Newsgroups: net.unix-wizards
+Subject: Twenex-Like ^T code posted to net.sources
+From: Chris Torek
+Date: Jun 19, 1985, 10:50:42 AM (as displayed by Google Groups)
+Source: https://groups.google.com/g/net.unix-wizards/c/Hyh6VJ033JI/m/q3EuqPHgZgMJ
+Mirror: https://usenet.trashworldnews.com/?thread=52187
+Retrieved: 2026-10-31. Message body below is verbatim. Google Groups masks e-mail addresses
+in the From line; full addresses appear in the body where the author signed them.
+------------------------------------------------------------------------
+I've posted our (Rehmi's really) kernel & stty mods for ^T to net.sources.
+For ARPA sites, if I get requests, I'll make the files publicly FTPable
+from MARYLAND.ARPA.
+-- 
+In-Real-Life: Chris Torek, Univ of MD Comp Sci Dept (+1 301 454 4251)
+UUCP:	seismo!umcp-cs!chris
+CSNet:	chris@umcp-cs		ARPA:	chris@maryland

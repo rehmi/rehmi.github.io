@@ -107,3 +107,33 @@ function hfun_project_tags()
     write(io, "</div>")
     return String(take!(io))
 end
+
+# Tag cloud for the projects catalog ({{tagcloud}}). Parses each project's
+# front-matter `tags = [...]` line straight from the file, so it is complete and
+# deterministic regardless of Franklin's incremental page-var / tag-page build
+# order. Links match the /tag/<tag>/ pages Franklin generates from those tags.
+function hfun_tagcloud()
+    counts = Dict{String,Int}()
+    projroot = joinpath(@__DIR__, "projects")
+    tagline = r"^\s*tags\s*=\s*\[(.*)\]"m
+    for d in readdir(projroot)
+        f = joinpath(projroot, d, "index.md")
+        isfile(f) || continue
+        m = match(tagline, read(f, String))
+        m === nothing && continue
+        for sm in eachmatch(r"\"([^\"]+)\"", m.captures[1])
+            t = sm.captures[1]
+            counts[t] = get(counts, t, 0) + 1
+        end
+    end
+    isempty(counts) && return ""
+    tagpath = something(Franklin.globvar("tag_page_path"), "tag")
+    # Most-used first, then alphabetical.
+    ordered = sort(collect(keys(counts)); by = t -> (-counts[t], t))
+    io = IOBuffer()
+    for t in ordered
+        write(io, "<a class=\"tag-chip\" href=\"/$tagpath/$t/\">$t")
+        write(io, "<span class=\"tag-count\">$(counts[t])</span></a>")
+    end
+    return String(take!(io))
+end

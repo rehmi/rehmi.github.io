@@ -1,7 +1,7 @@
 +++
 title = "Pengachu"
 project_date = "2000–2001"
-tags = ["hardware", "computing", "wireless"]
+tags = ["computing", "hardware", "wireless"]
 project_thumb = "/assets/thumbnails/other/pengachu/thumb.jpg"
 +++
 
@@ -68,8 +68,8 @@ expensive, for the target). A device could move between connected and detached m
 ## Context
 
 Pengachu grew out of the Media Lab's interest in ubiquitous, reconfigurable computing and drew on a
-library of freely reusable FPGA IP cores that Rehmi maintained. Its mix of open hardware, open
-software, cheap wireless networking, and an education-first mission reads today like a preview of the
-low-cost-computing-for-everyone projects that arrived years later.
+library of freely reusable FPGA IP cores developed in-house. An open, sub-\$50 Linux handheld with an
+education-first mission — built at the Media Lab years before such machines were common — it went on
+to **inspire the OLPC XO**, the low-cost education laptop that followed a few years later.
 
 *Project Pengachu — Wendy Ju, Rehmi Post, and Matt Reynolds. MIT Media Lab, 2000–2001.*

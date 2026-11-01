@@ -7,12 +7,12 @@
 [Google Scholar](http://scholar.google.com/citations?user=b_pBos8AAAAJ&hl=en) |
 [Research Gate](http://www.researchgate.net/profile/Ernest_Post)
 
-My work spans academia, industry, and entrepreneurship, with a focus on pushing the boundaries of physical computing and embedded systems. I combine expertise in physics, computer science, and engineering to develop innovative solutions in areas ranging from wearable technology to sensor systems.
+This work spans academia, industry, and entrepreneurship — physics, computer science, and engineering brought together to build physical computing and embedded systems, from wearable technology to sensors.
 
 ## Recent professional experience
 
-- **Raven** (2024-present)
-  Building an all-day wearable computing system in the form of smart glasses.
+- **[Raven](https://raven.computer)** (2024-present)
+  Building an all-day wearable ambient computing device with a full-color display, on-device Linux, and hands-free eye and voice control.
 
 - **OpenFINCH** (2022-2024)
   Developed an inexpensive open-source platform for diffractive light manipulation, focusing on computational optics
@@ -26,8 +26,8 @@ My work spans academia, industry, and entrepreneurship, with a focus on pushing 
 ## Education
 
 - Ph.D., MIT Media Lab - Developed a novel 6-degree-of-freedom inertial measurement unit (IMU) based on trapped micro particles
-- M.Sc., MIT Media Lab - Pioneered e-broidery: electronic circuitry on wash-and-wear textile substrates
-- B.Sc., Physics (Honors), University of Massachusetts - Focused on condensed-matter systems and superconducting devices at Tuominen Nanostructures Lab
+- M.Sc., MIT Media Lab - Developed e-broidery: electronic circuitry on wash-and-wear textile substrates
+- B.Sc., University of Massachusetts Amherst - Major in Physics (*cum laude*), minor in Computer Science; focused on condensed-matter systems and superconducting devices at Tuominen Nanostructures Lab
 - Kelly Scholar, University of Maryland - Worked on multicomputer architecture implementation
 
 ## Research Interests

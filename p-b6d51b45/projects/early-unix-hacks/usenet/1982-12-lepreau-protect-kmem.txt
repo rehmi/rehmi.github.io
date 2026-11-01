@@ -1,0 +1,34 @@
+Newsgroups: net.unix-wizards
+Subject: Re: I felt slightly obnoxious, so....
+From: utah-cs!lepreau
+Date: Dec 12, 1982, 9:25:33 PM (as displayed by Google Groups)
+Source: https://groups.google.com/g/net.unix-wizards/c/wYHgahJ8DhA/m/q05fxlk1MQQJ
+Mirror: https://usenet.trashworldnews.com/?thread=57616
+Retrieved: 2026-10-31. Message body below is verbatim. Google Groups masks e-mail addresses
+in the From line; full addresses appear in the body where the author signed them.
+------------------------------------------------------------------------
+It was only a matter of time till one of these became widely available.
+Ok, so we finally must do what we should have long ago: protect mem/kmem &
+make all the mem pgms setgid or uid, and setgid is the better choice.
+I'll save some of the rest of you some work, as grepping over most all our
+binaries for mem/kmem came up with the following (on a 4.1a system).  
+I should have checked for /dev/drum (swap) while I was there, but I forgot.
+Did I miss any (except for local hacks)?
+
+/usr/ucb/rstat
+/usr/ucb/trpt
+/usr/ucb/w (linked to /usr/ucb/uptime)
+/usr/ucb/vmstat
+/bin/ps
+/usr/bin/iostat
+/etc/dmesg
+/etc/pstat
+/usr/local/filepos
+/usr/local/gcore
+/usr/local/lib/emacs/loadst
+
+Don't need to be setgid:
+# /usr/local/setuid
+# /etc/renice
+# /etc/routed
+# /etc/savecore

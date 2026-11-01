@@ -1,0 +1,19 @@
+Newsgroups: net.unix-wizards
+Subject: inexpensive twenex-style ^T for 4.2 (and 4.1)
+From: Rehmi Post
+Date: Mar 28, 1985, 1:23:25 PM (as displayed by Google Groups)
+Source: https://groups.google.com/g/net.unix-wizards/c/wt3mEa_KhFg/m/rM6F4uDL4UgJ
+Mirror: https://usenet.trashworldnews.com/?thread=52658
+Retrieved: 2026-10-31. Message body below is verbatim. Google Groups masks e-mail addresses
+in the From line; full addresses appear in the body where the author signed them.
+------------------------------------------------------------------------
+This is a reposting, but I saw a request for it somewhere a few weeks back...
+If anyone wants it, I've got a configurable twenexish ^T for your 4.1 or 4.2
+tty driver... and some patches for stty. send me mail and I'll send you a
+copy... basically, if you aren't familiar with twenex ^T, what it does is
+give you system stats in a line like
+up 2h 16m, load 6.20 4.19, %cpu 0.07, 6k of 47k, kbd wait
+when you hit ^T and you're not in raw mode. the output format is changeable
+and has some other meters, and you can change the char it's assigned to.
+
+-- rehmi
